@@ -29,9 +29,9 @@ Projecting a timelike congruence $\mathcal{M}_{\mathcal{P}}$ of rest mass $m > 0
 
 On $\rho(x) > 0$, pairing the real spatial modulus density $\rho(x)$ with the closed phase-clock synchronization 1-form $\alpha_{\mathrm{clock}} \equiv d\tau_{\mathrm{clock}} = -dS/(mc^2)$ satisfies the exact unweighted Euclidean target-space metric identity for $\psi(x) \equiv \sqrt{\rho(x)}\exp\!\left(-i\frac{2\pi}{T_0}\tau_{\mathrm{clock}}(x)\right)$:
 
-$$
+```math
 |d\psi|^2 \;\equiv\; \frac{(d\rho)^2}{4\rho} + \rho\,(d\Phi)^2 \;\equiv\; \frac{\rho}{\ell_C^2}\left[\, c^2\left(d\tau_{\mathrm{clock}}\right)^2 + \left(\frac{c T_0}{4\pi}\right)^2 (d\ln\rho)^2 \,\right], \qquad \Phi(x) \equiv -\frac{2\pi}{T_0}\tau_{\mathrm{clock}}(x).
-$$
+```
 
 Away from $\rho = 0$, any Fisher weight $\lambda > 0$ is locally flat; at nodal zeros $\rho = 0$, the target metric on $\mathbb{R}^+ \times S^1_{T_0}$ forms a cone of opening angle $\Theta(\lambda) = \pi\hbar/\sqrt{\lambda}$. Requiring smooth Euclidean cone completion ($\Theta = 2\pi$) with unit clock winding uniquely selects **$\lambda = \hbar^2/4$** and the **Born amplitude $R = \sqrt{\rho}$** (Lemma 6.3).
 
@@ -39,20 +39,20 @@ Away from $\rho = 0$, any Fisher weight $\lambda > 0$ is locally flat; at nodal 
 
 Pulling back the Kähler–Clock metric to a curved four-dimensional Lorentzian manifold $(\mathcal{M}, g_{\mu\nu})$ with Ricci scalar $\mathcal{R}_g(x)$ and DeWitt symmetric half-density volume curvature $\frac{\ell_C^2}{6}\mathcal{R}_g(x)$ yields the exact action equivalence:
 
-$$
+```math
 \begin{aligned}
 \frac{\mathcal{A}_g[\rho, \tau_{\mathrm{clock}}]}{m^2 c^2} &\equiv \int_{\mathcal{M}} d^4x\sqrt{-g}\;\rho(x)\left[\, c^2 g^{\mu\nu}(\nabla_\mu \tau_{\mathrm{clock}})(\nabla_\nu \tau_{\mathrm{clock}}) - 1 + \frac{\ell_C^2}{4} g^{\mu\nu}(\nabla_\mu \ln\rho)(\nabla_\nu \ln\rho) + \frac{\ell_C^2}{6}\mathcal{R}_g(x) \,\right] \\
-&\equiv \int_{\mathcal{M}} d^4x\sqrt{-g}\;\psi^*(x)\left( -\ell_C^2 \Box_g - 1 + \frac{\ell_C^2}{6}\mathcal{R}_g(x) \right)\psi(x) \;\equiv\; \frac{\mathcal{A}_g[\psi, \psi^*]}{m^2 c^2}.
+&\equiv \int_{\mathcal{M}} d^4x\sqrt{-g}\;\psi^{\ast}(x)\left( -\ell_C^2 \Box_g - 1 + \frac{\ell_C^2}{6}\mathcal{R}_g(x) \right)\psi(x) \;\equiv\; \frac{\mathcal{A}_g[\psi, \psi^{\ast}]}{m^2 c^2}.
 \end{aligned}
-$$
+```
 
 ### III. Dressed Relativistic Mass-Energy Relation
 
 Stationary variation with respect to $\rho(x)$ generalizes $E_0 = mc^2$ on the timelike phase domain $\mathcal{U}_{\mathrm{timelike}}$ via the Fisher-dressed effective mass $M_{\mathrm{eff}}(x)$ and unit-normalized 4-velocity $U_\mu(x)$ ($g^{\mu\nu}U_\mu U_\nu = c^2$):
 
-$$
+```math
 M_{\mathrm{eff}}(x)^2 c^4 \;=\; (mc^2)^2 \left( 1 + \ell_C^2 \frac{\Box_g \sqrt{\rho(x)}}{\sqrt{\rho(x)}} - \frac{\ell_C^2}{6}\mathcal{R}_g(x) \right), \qquad U_\mu(x) \equiv \frac{m c^2}{M_{\mathrm{eff}}(x)}\nabla_\mu \tau_{\mathrm{clock}}(x).
-$$
+```
 
 Reading these three equations **left to right** ($\Delta x \sim \ell_C$) yields linear Klein–Gordon, Schrödinger, and Dirac wave mechanics, quantized nodal vortices, Heisenberg uncertainty, and multi-particle entanglement; reading them **right to left** ($\|q_\varepsilon\|_{W^{1,\infty}} \to 0$) concentrates the current-flux probability measure quantitatively in 1-Wasserstein distance back onto **classical Einstein geodesics** $u^\mu\nabla_\mu u^\alpha = 0$.
 
