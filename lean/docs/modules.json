@@ -1,0 +1,7489 @@
+{
+  "FoliationQM.Conventions": {
+    "kind": "shared definitions",
+    "labels": [
+      "sec:master_equation"
+    ]
+  },
+  "FoliationQM.PolarKahlerLattice": {
+    "kind": "A",
+    "labels": [
+      "eq:polar_kahler_lattice",
+      "eq:s1_lattice_hamiltonian"
+    ]
+  },
+  "FoliationQM.MasterMetricAndCone": {
+    "kind": "A,B",
+    "labels": [
+      "eq:master_local_metric",
+      "eq:lambda_metric",
+      "eq:cone_angle",
+      "lem:uniqueness",
+      "eq:nonlinear_defect"
+    ]
+  },
+  "FoliationQM.DressedVelocity": {
+    "kind": "A",
+    "labels": [
+      "thm:adm_positivity",
+      "eq:dressed_mass_velocity",
+      "eq:clock_vs_proper_oneform",
+      "eq:noether_current"
+    ]
+  },
+  "FoliationQM.ClockScales": {
+    "kind": "A",
+    "labels": [
+      "sec:master_equation",
+      "eq:master_local_metric",
+      "thm:clock_sideband"
+    ]
+  },
+  "FoliationQM.PolarDifferential": {
+    "kind": "B,C",
+    "labels": [
+      "eq:master_local_metric"
+    ]
+  },
+  "FoliationQM.MasterEquation": {
+    "kind": "C",
+    "labels": [
+      "eq:master_local_metric"
+    ]
+  },
+  "FoliationQM.LatticeConservation": {
+    "kind": "A,C,D",
+    "labels": [
+      "eq:polar_dR_dt",
+      "eq:polar_kahler_lattice",
+      "eq:s1_staggered_velocity"
+    ]
+  },
+  "FoliationQM.ActionDensity": {
+    "kind": "A,B,C",
+    "labels": [
+      "thm:kahler",
+      "eq:master_variational_equivalence"
+    ]
+  },
+  "FoliationQM.PolarSecondJet": {
+    "kind": "B,D",
+    "labels": [
+      "thm:kahler",
+      "eq:nonlinear_defect"
+    ]
+  },
+  "FoliationQM.PolarSecondDifferential": {
+    "kind": "C",
+    "labels": [
+      "thm:kahler",
+      "eq:nonlinear_defect"
+    ]
+  },
+  "FoliationQM.Madelung": {
+    "kind": "C,D",
+    "labels": [
+      "thm:kahler",
+      "eq:nonlinear_defect"
+    ]
+  },
+  "FoliationQM.ActionVariation": {
+    "kind": "A,C",
+    "labels": [
+      "thm:kahler",
+      "eq:master_variational_equivalence"
+    ]
+  },
+  "FoliationQM.FlatIntegrationByParts": {
+    "kind": "C",
+    "labels": [
+      "thm:kahler",
+      "eq:master_variational_equivalence"
+    ]
+  },
+  "FoliationQM.PolarRegularity": {
+    "kind": "C,D",
+    "labels": [
+      "thm:kahler",
+      "eq:nonlinear_defect"
+    ]
+  },
+  "FoliationQM.StationaryAction": {
+    "kind": "A,C",
+    "labels": [
+      "thm:kahler"
+    ]
+  },
+  "FoliationQM.RestPlaneWave": {
+    "kind": "C",
+    "labels": [
+      "thm:kahler"
+    ]
+  },
+  "FoliationQM.CompactPerturbation": {
+    "kind": "C",
+    "labels": [
+      "thm:kahler"
+    ]
+  },
+  "FoliationQM.PolarLocalInverse": {
+    "kind": "C",
+    "labels": [
+      "thm:kahler"
+    ]
+  },
+  "FoliationQM.PolarTangentEquiv": {
+    "kind": "A,B,C",
+    "labels": [
+      "thm:kahler"
+    ]
+  },
+  "FoliationQM.PolarTestVariations": {
+    "kind": "C",
+    "labels": [
+      "thm:kahler"
+    ]
+  },
+  "FoliationQM.PolarAffineChart": {
+    "kind": "C",
+    "labels": [
+      "thm:kahler"
+    ]
+  },
+  "FoliationQM.PolarCurveDerivative": {
+    "kind": "C",
+    "labels": [
+      "thm:kahler"
+    ]
+  },
+  "FoliationQM.PolarChartAction": {
+    "kind": "C",
+    "labels": [
+      "thm:kahler"
+    ]
+  },
+  "FoliationQM.CompactIntegralVariation": {
+    "kind": "C",
+    "labels": [
+      "thm:kahler"
+    ]
+  },
+  "FoliationQM.SmoothActionDensity": {
+    "kind": "C",
+    "labels": [
+      "thm:kahler"
+    ]
+  },
+  "FoliationQM.PolarSmoothCurve": {
+    "kind": "C",
+    "labels": [
+      "thm:kahler"
+    ]
+  },
+  "FoliationQM.CompactActionVariation": {
+    "kind": "C",
+    "labels": [
+      "thm:kahler"
+    ]
+  },
+  "FoliationQM.SmoothCurveStationarity": {
+    "kind": "C",
+    "labels": [
+      "thm:kahler"
+    ]
+  },
+  "FoliationQM.PolarStationaryAction": {
+    "kind": "C",
+    "labels": [
+      "thm:kahler"
+    ]
+  },
+  "FoliationQM.OpenIntegrationByParts": {
+    "kind": "C",
+    "labels": [
+      "thm:kahler",
+      "eq:master_variational_equivalence"
+    ]
+  },
+  "FoliationQM.OpenFundamentalLemma": {
+    "kind": "C",
+    "labels": [
+      "thm:kahler"
+    ]
+  },
+  "FoliationQM.OpenCompactIntegralVariation": {
+    "kind": "C",
+    "labels": [
+      "thm:kahler"
+    ]
+  },
+  "FoliationQM.OpenPolarVariations": {
+    "kind": "C",
+    "labels": [
+      "thm:kahler"
+    ]
+  },
+  "FoliationQM.OpenActionVariation": {
+    "kind": "C",
+    "labels": [
+      "thm:kahler"
+    ]
+  },
+  "FoliationQM.OpenStationaryAction": {
+    "kind": "C",
+    "labels": [
+      "thm:kahler",
+      "eq:master_variational_equivalence"
+    ]
+  },
+  "FoliationQM.OpenPolarStationaryAction": {
+    "kind": "C",
+    "labels": [
+      "thm:kahler"
+    ]
+  },
+  "FoliationQM.RelativeAction": {
+    "kind": "C",
+    "labels": [
+      "thm:kahler",
+      "eq:master_variational_equivalence"
+    ]
+  },
+  "FoliationQM.RelativeActionVariation": {
+    "kind": "C",
+    "labels": [
+      "thm:kahler"
+    ]
+  },
+  "FoliationQM.RelativeStationaryAction": {
+    "kind": "C",
+    "labels": [
+      "thm:kahler",
+      "eq:master_variational_equivalence"
+    ]
+  },
+  "FoliationQM.RelativePolarStationaryAction": {
+    "kind": "C",
+    "labels": [
+      "thm:kahler"
+    ]
+  },
+  "FoliationQM.RadialGeometry": {
+    "kind": "A,B,C",
+    "labels": [
+      "eq:lambda_metric",
+      "lem:uniqueness",
+      "thm:kahler"
+    ]
+  },
+  "FoliationQM.PowerMetric": {
+    "kind": "A,B,C",
+    "labels": [
+      "lem:uniqueness",
+      "eq:unique_params",
+      "thm:kahler"
+    ]
+  },
+  "FoliationQM.PolarKahlerGeometry": {
+    "kind": "A,B,C",
+    "labels": [
+      "thm:kahler"
+    ]
+  },
+  "FoliationQM.GeneralCouplingAction": {
+    "kind": "A,B,C",
+    "labels": [
+      "eq:nonlinear_defect",
+      "lem:uniqueness"
+    ]
+  },
+  "FoliationQM.NonlinearDefectEquivalence": {
+    "kind": "A,B,C",
+    "labels": [
+      "eq:nonlinear_defect",
+      "lem:uniqueness"
+    ]
+  },
+  "FoliationQM.GeneralCouplingStationarity": {
+    "kind": "A,B,C",
+    "labels": [
+      "eq:nonlinear_defect",
+      "lem:uniqueness"
+    ]
+  },
+  "FoliationQM.GeneralCouplingFirstVariation": {
+    "kind": "A,B,C",
+    "labels": [
+      "eq:nonlinear_defect",
+      "lem:uniqueness"
+    ]
+  },
+  "FoliationQM.GeneralCouplingExample": {
+    "kind": "A,B,C",
+    "labels": [
+      "eq:nonlinear_defect",
+      "lem:uniqueness"
+    ]
+  },
+  "FoliationQM.ClockCompatibility": {
+    "kind": "A,C",
+    "labels": [
+      "rem:topological_hbar_lock"
+    ]
+  },
+  "FoliationQM.PhaseCircle": {
+    "kind": "A,C",
+    "labels": [
+      "rem:topological_hbar_lock",
+      "lem:uniqueness"
+    ]
+  },
+  "FoliationQM.GlobalPhaseField": {
+    "kind": "A,C",
+    "labels": [
+      "rem:topological_hbar_lock"
+    ]
+  },
+  "FoliationQM.GlobalClockMap": {
+    "kind": "A,C",
+    "labels": [
+      "rem:topological_hbar_lock",
+      "lem:uniqueness"
+    ]
+  },
+  "FoliationQM.ConeAngleQuotient": {
+    "kind": "A,C",
+    "labels": [
+      "eq:cone_angle",
+      "lem:uniqueness"
+    ]
+  },
+  "FoliationQM.CanonicalPolarMetric": {
+    "kind": "C",
+    "labels": [
+      "lem:uniqueness",
+      "eq:unique_params"
+    ]
+  },
+  "FoliationQM.CanonicalCompletion": {
+    "kind": "C",
+    "labels": [
+      "lem:uniqueness",
+      "eq:unique_params"
+    ]
+  },
+  "FoliationQM.ConeMetricExtension": {
+    "kind": "A,B,C",
+    "labels": [
+      "lem:uniqueness",
+      "eq:unique_params"
+    ]
+  },
+  "FoliationQM.PuncturedPlaneDetour": {
+    "kind": "C",
+    "labels": [
+      "lem:uniqueness"
+    ]
+  },
+  "FoliationQM.CanonicalConeGeometry": {
+    "kind": "A,B,C",
+    "labels": [
+      "lem:uniqueness",
+      "eq:unique_params"
+    ]
+  },
+  "FoliationQM.ConeSpeed": {
+    "kind": "A,B,C",
+    "labels": [
+      "lem:uniqueness",
+      "eq:unique_params"
+    ]
+  },
+  "FoliationQM.ConeManifold": {
+    "kind": "B,C",
+    "labels": [
+      "lem:uniqueness",
+      "eq:unique_params"
+    ]
+  },
+  "FoliationQM.ConeIntrinsicMetric": {
+    "kind": "C",
+    "labels": [
+      "lem:uniqueness",
+      "eq:unique_params"
+    ]
+  },
+  "FoliationQM.EquivalentMetricCompletion": {
+    "kind": "C",
+    "labels": [
+      "lem:uniqueness"
+    ]
+  },
+  "FoliationQM.ConeCompletion": {
+    "kind": "C",
+    "labels": [
+      "lem:uniqueness",
+      "eq:unique_params"
+    ]
+  },
+  "FoliationQM.ConeRadial": {
+    "kind": "C",
+    "labels": [
+      "lem:uniqueness",
+      "eq:unique_params"
+    ]
+  },
+  "FoliationQM.ConeRadialCompletion": {
+    "kind": "C",
+    "labels": [
+      "lem:uniqueness",
+      "eq:unique_params"
+    ]
+  },
+  "FoliationQM.ConeCircleLength": {
+    "kind": "C",
+    "labels": [
+      "eq:cone_angle",
+      "lem:uniqueness",
+      "eq:unique_params"
+    ]
+  },
+  "FoliationQM.PowerConeCompletion": {
+    "kind": "A,B,C",
+    "labels": [
+      "lem:uniqueness",
+      "eq:unique_params"
+    ]
+  },
+  "FoliationQM.ConeIsometryRigidity": {
+    "kind": "C",
+    "labels": [
+      "lem:uniqueness",
+      "eq:unique_params"
+    ]
+  },
+  "FoliationQM.ConeRotations": {
+    "kind": "C",
+    "labels": [
+      "lem:uniqueness",
+      "eq:cone_angle"
+    ]
+  },
+  "FoliationQM.CircleAutomorphism": {
+    "kind": "C",
+    "labels": [
+      "lem:uniqueness",
+      "eq:unique_params"
+    ]
+  },
+  "FoliationQM.EuclideanRotationAction": {
+    "kind": "C",
+    "labels": [
+      "lem:uniqueness",
+      "eq:unique_params"
+    ]
+  },
+  "FoliationQM.ConeEuclideanRigidity": {
+    "kind": "C",
+    "labels": [
+      "lem:uniqueness",
+      "eq:unique_params"
+    ]
+  },
+  "FoliationQM.ConeTangentialUpper": {
+    "kind": "C",
+    "labels": [
+      "lem:uniqueness",
+      "eq:unique_params"
+    ]
+  },
+  "FoliationQM.ConeTangentialDistance": {
+    "kind": "C",
+    "labels": [
+      "lem:uniqueness",
+      "eq:unique_params"
+    ]
+  },
+  "FoliationQM.ConeEuclideanCompletion": {
+    "kind": "C",
+    "labels": [
+      "lem:uniqueness",
+      "eq:unique_params",
+      "eq:cone_angle",
+      "eq:nonlinear_defect"
+    ]
+  },
+  "FoliationQM.ClockCircleAverage": {
+    "kind": "C",
+    "labels": [
+      "thm:clock_sideband",
+      "eq:s1_circle_variance",
+      "eq:sideband_averaged_lagrangian"
+    ]
+  },
+  "FoliationQM.ClockProbeCovariance": {
+    "kind": "A,C",
+    "labels": [
+      "thm:clock_sideband",
+      "eq:s1_circle_variance",
+      "eq:kl_fisher_expansion"
+    ]
+  },
+  "FoliationQM.ClockFieldAverage": {
+    "kind": "B,C",
+    "labels": [
+      "thm:clock_sideband",
+      "eq:sideband_averaged_lagrangian",
+      "rem:clock_unification_vs_stochastic"
+    ]
+  },
+  "FoliationQM.FisherNormalization": {
+    "kind": "C",
+    "labels": [
+      "thm:clock_sideband",
+      "eq:kl_fisher_expansion"
+    ]
+  },
+  "FoliationQM.ClockFisherBridge": {
+    "kind": "A,C",
+    "labels": [
+      "thm:clock_sideband",
+      "eq:kl_fisher_expansion"
+    ]
+  },
+  "FoliationQM.DominatedIntegral": {
+    "kind": "C",
+    "labels": [
+      "thm:clock_sideband",
+      "eq:kl_fisher_expansion"
+    ]
+  },
+  "FoliationQM.LogDensityHessian": {
+    "kind": "B,C",
+    "labels": [
+      "thm:clock_sideband",
+      "eq:kl_fisher_expansion"
+    ]
+  },
+  "FoliationQM.SecondOrderLimit": {
+    "kind": "C",
+    "labels": [
+      "thm:clock_sideband",
+      "eq:kl_fisher_expansion"
+    ]
+  },
+  "FoliationQM.SecondOrderFrechet": {
+    "kind": "C",
+    "labels": [
+      "thm:clock_sideband",
+      "eq:kl_fisher_expansion"
+    ]
+  },
+  "FoliationQM.TranslatedKL": {
+    "kind": "B,C",
+    "labels": [
+      "thm:clock_sideband",
+      "eq:kl_fisher_expansion"
+    ]
+  },
+  "FoliationQM.KLDifferentiation": {
+    "kind": "C",
+    "labels": [
+      "thm:clock_sideband",
+      "eq:kl_fisher_expansion"
+    ]
+  },
+  "FoliationQM.KLDomination": {
+    "kind": "A,C",
+    "labels": [
+      "thm:clock_sideband",
+      "eq:kl_fisher_expansion"
+    ]
+  },
+  "FoliationQM.KLHessian": {
+    "kind": "C",
+    "labels": [
+      "thm:clock_sideband",
+      "eq:kl_fisher_expansion"
+    ]
+  },
+  "FoliationQM.ClockProbeLimit": {
+    "kind": "A,C",
+    "labels": [
+      "thm:clock_sideband",
+      "eq:kl_fisher_expansion"
+    ]
+  },
+  "FoliationQM.ClockKLLimit": {
+    "kind": "C",
+    "labels": [
+      "thm:clock_sideband",
+      "eq:kl_fisher_expansion"
+    ]
+  },
+  "FoliationQM.FourthOrderTaylor": {
+    "kind": "C",
+    "labels": [
+      "thm:clock_sideband",
+      "eq:kl_fisher_expansion"
+    ]
+  },
+  "FoliationQM.IteratedLogDerivatives": {
+    "kind": "C",
+    "labels": [
+      "thm:clock_sideband",
+      "eq:kl_fisher_expansion"
+    ]
+  },
+  "FoliationQM.ClockProbeCubic": {
+    "kind": "C",
+    "labels": [
+      "thm:clock_sideband",
+      "eq:kl_fisher_expansion"
+    ]
+  },
+  "FoliationQM.ClockTaylorAverage": {
+    "kind": "C",
+    "labels": [
+      "thm:clock_sideband",
+      "eq:kl_fisher_expansion"
+    ]
+  },
+  "FoliationQM.KLFourthDomination": {
+    "kind": "C",
+    "labels": [
+      "thm:clock_sideband",
+      "eq:kl_fisher_expansion"
+    ]
+  },
+  "FoliationQM.KLPointwiseTaylor": {
+    "kind": "C",
+    "labels": [
+      "thm:clock_sideband",
+      "eq:kl_fisher_expansion"
+    ]
+  },
+  "FoliationQM.KLIntegralTaylor": {
+    "kind": "C",
+    "labels": [
+      "thm:clock_sideband",
+      "eq:kl_fisher_expansion"
+    ]
+  },
+  "FoliationQM.ClockKLFiniteShift": {
+    "kind": "C",
+    "labels": [
+      "thm:clock_sideband",
+      "eq:kl_fisher_expansion"
+    ]
+  },
+  "FoliationQM.LorentzCoordinates": {
+    "kind": "A",
+    "labels": [
+      "lem:simultaneity",
+      "prop:debroglie"
+    ]
+  },
+  "FoliationQM.ContactReeb": {
+    "kind": "A",
+    "labels": [
+      "thm:contact_period",
+      "thm:clock_sideband"
+    ]
+  },
+  "FoliationQM.LiouvilleDifferential": {
+    "kind": "C",
+    "labels": [
+      "thm:contact_period",
+      "thm:clock_sideband"
+    ]
+  },
+  "FoliationQM.ReebFlow": {
+    "kind": "A,C",
+    "labels": [
+      "thm:contact_period",
+      "thm:clock_sideband"
+    ]
+  },
+  "FoliationQM.ContactExteriorBasics": {
+    "kind": "A",
+    "labels": [
+      "thm:contact_period",
+      "thm:clock_sideband"
+    ]
+  },
+  "FoliationQM.ContactExteriorWedge": {
+    "kind": "A",
+    "labels": [
+      "thm:contact_period",
+      "thm:clock_sideband"
+    ]
+  },
+  "FoliationQM.MassShellChart": {
+    "kind": "A,C",
+    "labels": [
+      "thm:contact_period",
+      "thm:clock_sideband"
+    ]
+  },
+  "FoliationQM.MassShellForms": {
+    "kind": "C",
+    "labels": [
+      "thm:contact_period",
+      "thm:clock_sideband"
+    ]
+  },
+  "FoliationQM.MassShellContact": {
+    "kind": "A,C",
+    "labels": [
+      "thm:contact_period",
+      "thm:clock_sideband"
+    ]
+  },
+  "FoliationQM.LiouvilleNonexact": {
+    "kind": "C",
+    "labels": [
+      "thm:contact_period"
+    ]
+  },
+  "FoliationQM.HamiltonJacobiPullback": {
+    "kind": "A,C",
+    "labels": [
+      "thm:contact_period",
+      "thm:clock_sideband",
+      "prop:debroglie"
+    ]
+  },
+  "FoliationQM.ActionClockCircle": {
+    "kind": "A,C",
+    "labels": [
+      "thm:contact_period",
+      "thm:clock_sideband",
+      "prop:debroglie"
+    ]
+  },
+  "FoliationQM.ClockScaleLimits": {
+    "kind": "C",
+    "labels": [
+      "thm:clock_sideband",
+      "rem:clock_unification_vs_stochastic"
+    ]
+  },
+  "FoliationQM.ReebClockBridge": {
+    "kind": "A,C",
+    "labels": [
+      "thm:contact_period",
+      "thm:clock_sideband"
+    ]
+  },
+  "FoliationQM.DeBroglieDifferential": {
+    "kind": "A,C",
+    "labels": [
+      "prop:debroglie"
+    ]
+  },
+  "FoliationQM.DeBrogliePhase": {
+    "kind": "A,C",
+    "labels": [
+      "prop:debroglie"
+    ]
+  },
+  "FoliationQM.DeBroglieLimit": {
+    "kind": "C",
+    "labels": [
+      "prop:debroglie"
+    ]
+  },
+  "FoliationQM.UniformBoostHamiltonJacobi": {
+    "kind": "A,C",
+    "labels": [
+      "prop:debroglie"
+    ]
+  },
+  "FoliationQM.DiracMatrices": {
+    "kind": "A",
+    "labels": [
+      "eq:rotor_compton_evolution",
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.PlaneRotor": {
+    "kind": "A,B,C",
+    "labels": [
+      "eq:rotor_compton_evolution",
+      "thm:contact_period",
+      "lem:maurer_cartan"
+    ]
+  },
+  "FoliationQM.DiracAdjoint": {
+    "kind": "A",
+    "labels": [
+      "prop:takabayasi",
+      "eq:scalar_pseudoscalar_bilinears",
+      "eq:vector_axial_bilinears"
+    ]
+  },
+  "FoliationQM.RotorExponential": {
+    "kind": "A,B,C",
+    "labels": [
+      "eq:rotor_compton_evolution",
+      "thm:contact_period",
+      "lem:maurer_cartan"
+    ]
+  },
+  "FoliationQM.RotorEvolution": {
+    "kind": "A,B,C",
+    "labels": [
+      "eq:rotor_compton_evolution",
+      "thm:contact_period",
+      "lem:maurer_cartan"
+    ]
+  },
+  "FoliationQM.RotorODE": {
+    "kind": "A,B,C",
+    "labels": [
+      "eq:rotor_compton_evolution",
+      "thm:contact_period",
+      "lem:maurer_cartan"
+    ]
+  },
+  "FoliationQM.RotorUnitary": {
+    "kind": "A",
+    "labels": [
+      "eq:rotor_compton_evolution",
+      "prop:takabayasi",
+      "eq:scalar_pseudoscalar_bilinears"
+    ]
+  },
+  "FoliationQM.PlaneTetrad": {
+    "kind": "A,B,C",
+    "labels": [
+      "eq:rotor_compton_evolution",
+      "thm:contact_period",
+      "lem:maurer_cartan"
+    ]
+  },
+  "FoliationQM.RotorPeriods": {
+    "kind": "A,B,C",
+    "labels": [
+      "eq:rotor_compton_evolution",
+      "thm:contact_period",
+      "lem:maurer_cartan"
+    ]
+  },
+  "FoliationQM.RotorClocks": {
+    "kind": "A,B,C",
+    "labels": [
+      "eq:rotor_compton_evolution",
+      "thm:contact_period",
+      "lem:maurer_cartan"
+    ]
+  },
+  "FoliationQM.RotorFrameEvolution": {
+    "kind": "A,B,C",
+    "labels": [
+      "eq:rotor_compton_evolution",
+      "thm:contact_period",
+      "lem:maurer_cartan"
+    ]
+  },
+  "FoliationQM.ChiralMatrix": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi",
+      "eq:takabayasi_polar",
+      "eq:scalar_pseudoscalar_bilinears",
+      "eq:vector_axial_bilinears"
+    ]
+  },
+  "FoliationQM.PolarSpinorBilinears": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi",
+      "eq:takabayasi_polar",
+      "eq:scalar_pseudoscalar_bilinears",
+      "eq:vector_axial_bilinears"
+    ]
+  },
+  "FoliationQM.SpinorRegularity": {
+    "kind": "A",
+    "labels": [
+      "prop:takabayasi",
+      "eq:takabayasi_polar",
+      "eq:scalar_pseudoscalar_bilinears"
+    ]
+  },
+  "FoliationQM.CliffordGenerators": {
+    "kind": "A",
+    "labels": [
+      "eq:clifford_anticomm",
+      "eq:sigma_anticomm"
+    ]
+  },
+  "FoliationQM.SixTermConnection": {
+    "kind": "A",
+    "labels": [
+      "eq:six_terms_omega"
+    ]
+  },
+  "FoliationQM.MatrixDifferential": {
+    "kind": "A,C",
+    "labels": [
+      "lem:maurer_cartan"
+    ]
+  },
+  "FoliationQM.ChiralDifferential": {
+    "kind": "A,C",
+    "labels": [
+      "lem:maurer_cartan"
+    ]
+  },
+  "FoliationQM.MaurerCartanDifferential": {
+    "kind": "A,C",
+    "labels": [
+      "lem:maurer_cartan"
+    ]
+  },
+  "FoliationQM.PolarSpinorDifferential": {
+    "kind": "A,C",
+    "labels": [
+      "lem:maurer_cartan",
+      "thm:dirac_lift",
+      "eq:dirac_polar_lagrangian_main"
+    ]
+  },
+  "FoliationQM.CliffordCommutators": {
+    "kind": "A,B,C",
+    "labels": [
+      "lem:maurer_cartan"
+    ]
+  },
+  "FoliationQM.RealLorentzFrame": {
+    "kind": "A,B,C",
+    "labels": [
+      "lem:maurer_cartan",
+      "eq:vector_axial_bilinears"
+    ]
+  },
+  "FoliationQM.RicciRotation": {
+    "kind": "A,B,C",
+    "labels": [
+      "lem:maurer_cartan"
+    ]
+  },
+  "FoliationQM.PolarCoefficientDerivative": {
+    "kind": "A,B,C",
+    "labels": [
+      "lem:maurer_cartan",
+      "thm:dirac_lift",
+      "eq:dirac_polar_lagrangian_main"
+    ]
+  },
+  "FoliationQM.LorentzGeneratorDomain": {
+    "kind": "A",
+    "labels": [
+      "lem:maurer_cartan"
+    ]
+  },
+  "FoliationQM.PolarVectorGeometry": {
+    "kind": "A,C",
+    "labels": [
+      "eq:vector_axial_bilinears",
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.LorentzCoefficientUniqueness": {
+    "kind": "A",
+    "labels": [
+      "lem:maurer_cartan"
+    ]
+  },
+  "FoliationQM.MaurerCartanCurvature": {
+    "kind": "A,B,C",
+    "labels": [
+      "lem:maurer_cartan",
+      "eq:dirac_polar_lagrangian_main"
+    ]
+  },
+  "FoliationQM.MaurerCartanForms": {
+    "kind": "A,B,C",
+    "labels": [
+      "lem:maurer_cartan",
+      "eq:dirac_polar_lagrangian_main"
+    ]
+  },
+  "FoliationQM.LorentzGeneratorBracket": {
+    "kind": "A,B,C",
+    "labels": [
+      "lem:maurer_cartan",
+      "eq:dirac_polar_lagrangian_main"
+    ]
+  },
+  "FoliationQM.LorentzConnectionCurvature": {
+    "kind": "A,B,C",
+    "labels": [
+      "lem:maurer_cartan",
+      "eq:dirac_polar_lagrangian_main"
+    ]
+  },
+  "FoliationQM.SpinConnectionForms": {
+    "kind": "A,B,C",
+    "labels": [
+      "lem:maurer_cartan",
+      "eq:dirac_polar_lagrangian_main"
+    ]
+  },
+  "FoliationQM.DiracDensity": {
+    "kind": "A,B,C",
+    "labels": [
+      "eq:dirac_lagrangian_sym",
+      "eq:dirac_polar_lagrangian_main",
+      "thm:dirac_lift"
+    ]
+  },
+  "FoliationQM.DiracFieldDensity": {
+    "kind": "A,B,C",
+    "labels": [
+      "eq:dirac_lagrangian_sym",
+      "eq:dirac_polar_lagrangian_main",
+      "thm:dirac_lift"
+    ]
+  },
+  "FoliationQM.PolarConnectionContraction": {
+    "kind": "A,B,C",
+    "labels": [
+      "eq:dirac_lagrangian_sym",
+      "eq:dirac_polar_lagrangian_main",
+      "thm:dirac_lift"
+    ]
+  },
+  "FoliationQM.CanonicalDiracContraction": {
+    "kind": "A,C",
+    "labels": [
+      "eq:dirac_polar_lagrangian_main",
+      "thm:dirac_lift"
+    ]
+  },
+  "FoliationQM.PolarDiracDensity": {
+    "kind": "A,B,C",
+    "labels": [
+      "eq:dirac_lagrangian_sym",
+      "eq:dirac_polar_lagrangian_main",
+      "thm:dirac_lift"
+    ]
+  },
+  "FoliationQM.ChiralNeutralization": {
+    "kind": "A,B,C",
+    "labels": [
+      "thm:dirac_lift"
+    ]
+  },
+  "FoliationQM.LorentzGeneratorQuadratic": {
+    "kind": "A,B,C",
+    "labels": [
+      "thm:dirac_lift",
+      "eq:sigma_anticomm",
+      "eq:six_terms_omega"
+    ]
+  },
+  "FoliationQM.NeutralizedSpinorKinetic": {
+    "kind": "A,B,C",
+    "labels": [
+      "thm:dirac_lift"
+    ]
+  },
+  "FoliationQM.PhysicalFrameDifferential": {
+    "kind": "A,B,C",
+    "labels": [
+      "thm:dirac_lift"
+    ]
+  },
+  "FoliationQM.FermiWalkerProjection": {
+    "kind": "A,B,C",
+    "labels": [
+      "thm:dirac_lift"
+    ]
+  },
+  "FoliationQM.VelocitySpinKinetic": {
+    "kind": "A,B,C",
+    "labels": [
+      "thm:dirac_lift"
+    ]
+  },
+  "FoliationQM.SpinFisherDensity": {
+    "kind": "A,B,C",
+    "labels": [
+      "thm:dirac_lift"
+    ]
+  },
+  "FoliationQM.SpinFisherLimits": {
+    "kind": "A,B,C",
+    "labels": [
+      "thm:dirac_lift"
+    ]
+  },
+  "FoliationQM.ChiralDerivativeControl": {
+    "kind": "A,B,C",
+    "labels": [
+      "thm:dirac_lift"
+    ]
+  },
+  "FoliationQM.DiracEquation": {
+    "kind": "A,B,C",
+    "labels": [
+      "thm:dirac_lift",
+      "rem:gordon_osmotic_bridge"
+    ]
+  },
+  "FoliationQM.DiracSecondJet": {
+    "kind": "A,B,C",
+    "labels": [
+      "thm:dirac_lift"
+    ]
+  },
+  "FoliationQM.DiracCurrent": {
+    "kind": "A,B,C",
+    "labels": [
+      "thm:dirac_lift",
+      "rem:gordon_osmotic_bridge"
+    ]
+  },
+  "FoliationQM.DiracOperatorFactorization": {
+    "kind": "A,B,C",
+    "labels": [
+      "thm:dirac_lift"
+    ]
+  },
+  "FoliationQM.GordonDecomposition": {
+    "kind": "A,B,C",
+    "labels": [
+      "thm:dirac_lift",
+      "rem:gordon_osmotic_bridge"
+    ]
+  },
+  "FoliationQM.PolarDiracCurrent": {
+    "kind": "A,B,C",
+    "labels": [
+      "thm:dirac_lift",
+      "rem:gordon_osmotic_bridge",
+      "eq:vector_axial_bilinears"
+    ]
+  },
+  "FoliationQM.SpinorMatrix": {
+    "kind": "A",
+    "labels": [
+      "prop:takabayasi",
+      "eq:takabayasi_polar",
+      "eq:scalar_pseudoscalar_bilinears"
+    ]
+  },
+  "FoliationQM.SpecialLinearSpin": {
+    "kind": "A",
+    "labels": [
+      "prop:takabayasi",
+      "eq:takabayasi_polar"
+    ]
+  },
+  "FoliationQM.ChiralSpinorMatrix": {
+    "kind": "A",
+    "labels": [
+      "prop:takabayasi",
+      "eq:takabayasi_polar"
+    ]
+  },
+  "FoliationQM.RegularPolarReconstruction": {
+    "kind": "A",
+    "labels": [
+      "prop:takabayasi",
+      "eq:takabayasi_polar"
+    ]
+  },
+  "FoliationQM.PolarMatrixFibers": {
+    "kind": "A",
+    "labels": [
+      "prop:takabayasi",
+      "eq:takabayasi_polar"
+    ]
+  },
+  "FoliationQM.ChiralAngleCircle": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi",
+      "eq:takabayasi_polar"
+    ]
+  },
+  "FoliationQM.PolarAngleFibers": {
+    "kind": "A",
+    "labels": [
+      "prop:takabayasi",
+      "eq:takabayasi_polar"
+    ]
+  },
+  "FoliationQM.PolarSignQuotient": {
+    "kind": "A",
+    "labels": [
+      "prop:takabayasi",
+      "eq:takabayasi_polar"
+    ]
+  },
+  "FoliationQM.SpinorMatrixSmooth": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi",
+      "eq:takabayasi_polar"
+    ]
+  },
+  "FoliationQM.PrincipalPolarSmooth": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi",
+      "eq:takabayasi_polar"
+    ]
+  },
+  "FoliationQM.PrincipalPolarChart": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi",
+      "eq:takabayasi_polar"
+    ]
+  },
+  "FoliationQM.PolarInvariantDifferential": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi",
+      "eq:takabayasi_polar",
+      "lem:maurer_cartan"
+    ]
+  },
+  "FoliationQM.RotatedPolarChart": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi",
+      "eq:takabayasi_polar"
+    ]
+  },
+  "FoliationQM.LocalPolarFields": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi",
+      "eq:takabayasi_polar"
+    ]
+  },
+  "FoliationQM.PolarChartTransitions": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi",
+      "eq:takabayasi_polar",
+      "lem:maurer_cartan"
+    ]
+  },
+  "FoliationQM.ReconstructedPolarDifferential": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi",
+      "eq:takabayasi_polar",
+      "lem:maurer_cartan"
+    ]
+  },
+  "FoliationQM.SpecialLinearFrame": {
+    "kind": "A",
+    "labels": [
+      "prop:takabayasi",
+      "eq:vector_axial_bilinears"
+    ]
+  },
+  "FoliationQM.SpecialLinearFrameLaws": {
+    "kind": "A",
+    "labels": [
+      "prop:takabayasi",
+      "eq:vector_axial_bilinears"
+    ]
+  },
+  "FoliationQM.ReconstructedFrameGeometry": {
+    "kind": "A",
+    "labels": [
+      "prop:takabayasi",
+      "eq:vector_axial_bilinears"
+    ]
+  },
+  "FoliationQM.SpecialLinearTimeOrientation": {
+    "kind": "A",
+    "labels": [
+      "prop:takabayasi",
+      "eq:vector_axial_bilinears"
+    ]
+  },
+  "FoliationQM.SpecialLinearFrameSmooth": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi",
+      "lem:maurer_cartan"
+    ]
+  },
+  "FoliationQM.SpecialLinearLieAlgebra": {
+    "kind": "A,C",
+    "labels": [
+      "lem:maurer_cartan"
+    ]
+  },
+  "FoliationQM.SpecialLinearTangent": {
+    "kind": "A,C",
+    "labels": [
+      "lem:maurer_cartan"
+    ]
+  },
+  "FoliationQM.SpecialLinearSpinDifferential": {
+    "kind": "A,C",
+    "labels": [
+      "lem:maurer_cartan"
+    ]
+  },
+  "FoliationQM.SpecialLinearConnection": {
+    "kind": "A,C",
+    "labels": [
+      "lem:maurer_cartan"
+    ]
+  },
+  "FoliationQM.SpecialLinearRicci": {
+    "kind": "A,C",
+    "labels": [
+      "lem:maurer_cartan",
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.ReconstructedLorentzDifferential": {
+    "kind": "A,C",
+    "labels": [
+      "lem:maurer_cartan",
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.ReconstructedFrameConnection": {
+    "kind": "A,C",
+    "labels": [
+      "lem:maurer_cartan",
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.SpecialLinearCurvature": {
+    "kind": "A,C",
+    "labels": [
+      "lem:maurer_cartan",
+      "thm:dirac_lift"
+    ]
+  },
+  "FoliationQM.SpecialLinearPhysicalKinetic": {
+    "kind": "A,B,C",
+    "labels": [
+      "thm:dirac_lift"
+    ]
+  },
+  "FoliationQM.SpecialLinearKinetic": {
+    "kind": "A,B,C",
+    "labels": [
+      "thm:dirac_lift"
+    ]
+  },
+  "FoliationQM.ReconstructedSpinFisher": {
+    "kind": "A,B,C",
+    "labels": [
+      "thm:dirac_lift"
+    ]
+  },
+  "FoliationQM.ReconstructedDiracDensity": {
+    "kind": "A,C,D",
+    "labels": [
+      "thm:dirac_lift",
+      "eq:dirac_polar_lagrangian_main"
+    ]
+  },
+  "FoliationQM.PolarDatumTopology": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.PolarLocalSections": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.PolarAmplitudeTopology": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.RegularPolarHomeomorph": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.SourcePolarDatum": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.SourcePolarQuotient": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.SourcePolarRealization": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.SourcePolarProductQuotient": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.PolarSignCovering": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.PolarCoveringLifts": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.SourcePolarCovering": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.PolarNoGlobalSection": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.PolarDatumSmooth": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.PolarQuotientSmooth": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.SourcePolarSmooth": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.ContinuousPolarLiftSmooth": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.PolarManifoldCharts": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.RegularSpinorManifold": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.PolarQuotientManifold": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.SourceQuotientManifold": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.PolarScalarManifolds": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.ChiralAngleManifold": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.IntrinsicManifoldCharts": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.SpecialLinearCharts": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.SpecialLinearManifold": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.PolarAmplitudeManifold": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.PolarDatumManifold": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.SmoothPolarCovering": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.SourceDatumManifold": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.SmoothTrivialBundle": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.SmoothPolarFields": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.PolarBundleSections": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.PolarCoveringDifferential": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.FrameDatumManifold": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.FrameQuotientCovering": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.QuotientManifoldAtlas": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.FrameQuotientManifold": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.SmoothLocalDescent": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.DensityFrameManifold": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.DensityFrameFields": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.DensityFrameSections": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.DensityFrameDifferential": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.FrameRepresentativeObstruction": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.SpecialLinearGroupManifold": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.DensityFrameAction": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.RegularSpinorAction": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.GaugePolarFields": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.PolarTransitionCocycle": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.CocyclePolarFields": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.CocycleDensityGluing": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.PolarCocycleBundles": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.PolarCocycleExamples": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.SmoothCocycleBundle": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.SmoothCocycleSections": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.PolarCocycleManifold": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.PolarCocycleSections": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.CocycleGaugeTransform": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.CocycleGaugeFamilies": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.CocycleGaugeBundles": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.CocycleGaugeSections": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.CocyclePullback": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.CocyclePullbackFamilies": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.CocyclePullbackBundles": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.CocyclePullbackSections": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.CocycleBundleDensity": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.CocycleSectionDensity": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.CocycleBundleDifferential": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.CocycleDensityDifferential": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.LorentzMatrixGroup": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.SpinLorentzAction": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.LorentzFutureCone": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.SpinLorentzOrientation": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.SpinLorentzPauli": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.SpinLorentzCentralizer": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.SpinLorentzKernel": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.SpinLorentzSignQuotient": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.SpinLorentzBoost": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.SpinLorentzSphere": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.SpinLorentzPlanar": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.SpinLorentzSurjective": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.LorentzMatrixTopology": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.SpinLorentzCovering": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.SpinLorentzQuotient": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.SpinLorentzPolarCompatibility": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.CliffordMinkowski": {
+    "kind": "A",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.CliffordSpinGenerators": {
+    "kind": "A",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.CliffordEvenDimension": {
+    "kind": "A",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.CliffordEvenPauli": {
+    "kind": "A",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.CliffordEvenInvolution": {
+    "kind": "A",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.CliffordSpinMap": {
+    "kind": "A",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.CliffordSpinSurjective": {
+    "kind": "A",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.CliffordSpinEquivalence": {
+    "kind": "A",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.CliffordSpinTopology": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.CliffordSpinLorentz": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.CliffordSpinCovering": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.CliffordSpinManifold": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.CliffordSpinRepresentation": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.CliffordSpinPolarDatum": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.CliffordSpinPolarRealization": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.CliffordSpinPolarCovering": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.CliffordSpinPolarQuotient": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.CliffordSpinPolarManifold": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.CliffordSpinPolarReconstruction": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.CliffordSpinPolarFields": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.CliffordSpinPolarAction": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.CliffordSpinPolarCocycle": {
+    "kind": "A,C,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.CliffordSpinCocycleFields": {
+    "kind": "A,C,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.CliffordSpinCocycleSections": {
+    "kind": "A,C,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.LorentzCayleyCoordinates": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.LorentzCayleyAlgebra": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.LorentzCayleyDomain": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.LorentzCayleySmooth": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.LorentzCayleyCharts": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.LorentzManifold": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.LorentzGroupManifold": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.LorentzCayleyDifferential": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.SpinLorentzCayleyLinear": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.SpinLorentzCayleyDerivative": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.SpinLorentzLocalDiffeomorph": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.CliffordSpinLorentzSmooth": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.CliffordSpinSignManifold": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.CliffordSpinLorentzFields": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.CliffordSpinLorentzDifferential": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.CliffordSpinLorentzTransitions": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.PuncturedSpaceGeometry": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.PuncturedSpaceSimplyConnected": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.SpecialLinearColumnCoordinates": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.SpecialLinearSimplyConnected": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.CliffordSpinUniversalCover": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.CliffordSpinGlobalLift": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.CliffordSpinPathLifting": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.CliffordSpinLiftClassification": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.CliffordSpinSignKernel": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.LorentzFundamentalGroup": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.CliffordSpinLoopMonodromy": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.CentralTransitionDefect": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.CliffordSpinTransitionLifts": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.CliffordSpinPairLiftConstruction": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.CliffordSpinCocycleCorrection": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.GeometricPrincipalAtlas": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.PrincipalCocycleBundle": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.GeometricLorentzFrame": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.GeometricSpinLift": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.GeometricPrincipalSmoothAtlas": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.PrincipalAtlasReconstruction": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.SmoothLorentzTetrad": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.PrincipalCocycleMorphism": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.ProductCovering": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.GeometricSpinCovering": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.GeometricPrincipalManifold": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.GeometricLorentzFrameBundle": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.PrincipalCocycleEquivalence": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.SmoothLorentzFrameBundle": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.CliffordSpinPrincipalBundle": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.GeometricSpinSmoothCover": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.GeometricSpinAdaptedCharts": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.AdaptedGeometricSpinLift": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.GeometricSpinCocycleCongruence": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.GeometricSpinStructure": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.GeometricFrameSpinLift": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.GeometricSpinRefinement": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.TangentTetradCoordinates": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.SmoothFrameExtension": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.SignedMetricProjection": {
+    "kind": "A",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.GeometricLorentzFrameRecognition": {
+    "kind": "A",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.LorentzGramFamily": {
+    "kind": "A",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.LorentzGramSchmidt": {
+    "kind": "A",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.LorentzGramSchmidtBasis": {
+    "kind": "A",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.GeometricLorentzNormalization": {
+    "kind": "A",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.SmoothSignedMetricProjection": {
+    "kind": "C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.SmoothLorentzGramSchmidt": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.SmoothLorentzLocalFrame": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.SmoothLorentzMetricGeometry": {
+    "kind": "A,C,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.MetricLorentzTetradCover": {
+    "kind": "A,C,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.MetricGeometricSpinStructure": {
+    "kind": "A,C,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.TangentLorentzTetradCover": {
+    "kind": "A,C,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.FlatLorentzMetricGeometry": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.CliffordSpinCoverRefinement": {
+    "kind": "A,C,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.SpinRefinementComposition": {
+    "kind": "A,C,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.SpinSignCohomology": {
+    "kind": "A,C,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.SpinPairLiftDifference": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.SpinSignDefectRepresentative": {
+    "kind": "A,C,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.SpinSignDefectExample": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.SpinFixedCoverObstruction": {
+    "kind": "A,C,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.SignClassRestriction": {
+    "kind": "A,C,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.SignRefinementPrism": {
+    "kind": "A,C,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.SpinObstructionRestriction": {
+    "kind": "A,C,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.SignCommonRefinement": {
+    "kind": "A,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.SignEventualObstruction": {
+    "kind": "A,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.RefinedGeometricPrincipalAtlas": {
+    "kind": "C,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.SmoothSpinLiftRefinement": {
+    "kind": "C,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.GeometricSpinObstruction": {
+    "kind": "C,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.MetricSpinObstructionCriterion": {
+    "kind": "A,C,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.SpinSignOneCocycle": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.SpinLiftSignDifference": {
+    "kind": "A,C,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.SpinLiftOverlapTorsor": {
+    "kind": "A,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.SpinSignHOne": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.SpinLiftChartGauge": {
+    "kind": "A,C,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.SpinLiftHOneTorsor": {
+    "kind": "A,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.PuncturedPlaneSignCover": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.PuncturedPlaneSpinSign": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.PuncturedPlaneSpinLifts": {
+    "kind": "A,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.SpinLiftIsomorphism": {
+    "kind": "C,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.AdaptedSpinGaugeMap": {
+    "kind": "A,C,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.AdaptedSpinGaugeExtraction": {
+    "kind": "A,C,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.SpinGeometricLiftClasses": {
+    "kind": "A,C,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.PuncturedPlaneGeometricSpin": {
+    "kind": "A,C,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.SpinHOneRestriction": {
+    "kind": "A,C,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.SpinHOneDescent": {
+    "kind": "A,C,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.JointSpinAdaptation": {
+    "kind": "C,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.SpinLiftClassRestriction": {
+    "kind": "A,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.SmoothSpinRelativeClass": {
+    "kind": "A,C,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.PuncturedPlaneRelativeSpin": {
+    "kind": "A,C,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.SpinHOneDirected": {
+    "kind": "A,C,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.SpinAllCoverHOne": {
+    "kind": "A,C,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.SpinHOneUniversal": {
+    "kind": "A,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.PuncturedPlaneGlobalSign": {
+    "kind": "A,C,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.AdaptedSpinCoverRestriction": {
+    "kind": "C,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.GlobalSpinDisplacement": {
+    "kind": "A,C,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.AlignedSpinPresentation": {
+    "kind": "C,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.GlobalSpinPresentationFormula": {
+    "kind": "A,C,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.GlobalSpinOriginalCover": {
+    "kind": "A,C,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.PuncturedPlaneGlobalDisplacement": {
+    "kind": "A,C,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.GlobalSpinRealization": {
+    "kind": "A,C,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.SmoothSpinHOneTorsor": {
+    "kind": "A,C,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.GlobalSpinCoverTwists": {
+    "kind": "A,C,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.GlobalSpinAdaptedImage": {
+    "kind": "A,C,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.PuncturedPlaneGlobalSpinAction": {
+    "kind": "A,C,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.GlobalSpinClassificationCriterion": {
+    "kind": "A,C,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.MetricSpinHOneClassification": {
+    "kind": "A,C,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.TangentSpinHOneClassification": {
+    "kind": "A,C,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.SpinClassificationExamples": {
+    "kind": "A,C,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.SpinSignHTwo": {
+    "kind": "A,C,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.SpinHTwoDirected": {
+    "kind": "A,C,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.SpinAllCoverHTwo": {
+    "kind": "A,C,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.SpinHTwoUniversal": {
+    "kind": "A,C,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.GlobalSpinObstruction": {
+    "kind": "A,C,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.ModTwoCohomology": {
+    "kind": "A,C,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.ModTwoRestriction": {
+    "kind": "A,C,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.SpinSignLocalCoefficients": {
+    "kind": "A,C,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.SpinModTwoComparison": {
+    "kind": "A,C,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.ModTwoAllCover": {
+    "kind": "A,C,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.GlobalModTwoComparison": {
+    "kind": "A,C,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.ModTwoSpinObstruction": {
+    "kind": "A,C,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.LorentzTransitionPaths": {
+    "kind": "A,C,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.SpinTransitionPathLifts": {
+    "kind": "A,C,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.LorentzTriangleMonodromy": {
+    "kind": "A,C,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.TransitionLoopCocycle": {
+    "kind": "A,C,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.GlobalTransitionLoopObstruction": {
+    "kind": "A,C,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.FrameSquareExtension": {
+    "kind": "A,C,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.LorentzFrameExtension": {
+    "kind": "A,C,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.MetricFrameExtension": {
+    "kind": "A,C,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.TangentFrameExtension": {
+    "kind": "A,C,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.BasedPathGroup": {
+    "kind": "A,C,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.BasedPathQuotient": {
+    "kind": "A,C,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.PathConjugationHomotopy": {
+    "kind": "C,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.BasedPathCentrality": {
+    "kind": "A,C,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.CentralExtensionDefect": {
+    "kind": "A,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.BasedPathLocalConstancy": {
+    "kind": "C,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.PathTransitionData": {
+    "kind": "C,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.IntrinsicPathCocycle": {
+    "kind": "A,C,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.IntrinsicPathChoice": {
+    "kind": "A,C,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.IntrinsicPathRestriction": {
+    "kind": "A,C,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.GlobalIntrinsicPathObstruction": {
+    "kind": "A,C,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.LorentzPathEndpoint": {
+    "kind": "A,C,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.LorentzPathSpinEquivalence": {
+    "kind": "A,C,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.LorentzPathCoefficient": {
+    "kind": "A,C,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.LorentzIntrinsicObstruction": {
+    "kind": "A,C,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.GeometricIntrinsicSpinObstruction": {
+    "kind": "C,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.ContractibleTransitionPaths": {
+    "kind": "C,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.IntrinsicPathGauge": {
+    "kind": "A,C,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.ContractiblePathGauge": {
+    "kind": "C,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.ContractibleLorentzObstruction": {
+    "kind": "C,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.MetricContractibleSpinObstruction": {
+    "kind": "C,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.TangentContractibleSpinObstruction": {
+    "kind": "C,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.LorentzLocalPaths": {
+    "kind": "C,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.PrincipalAtlasCrossGauge": {
+    "kind": "A,C,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.PrincipalAtlasJointGauge": {
+    "kind": "A,C,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.IntrinsicAtlasComparison": {
+    "kind": "C,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.LorentzGaugeRefinement": {
+    "kind": "C,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.GeometricAtlasObstruction": {
+    "kind": "C,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.AtlasPathTransfer": {
+    "kind": "A,C,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.PresentedLorentzBundle": {
+    "kind": "A,C,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.SpinLiftAtlasChange": {
+    "kind": "A,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.PresentedSpinCriterion": {
+    "kind": "A,C,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.PuncturedPlaneAtlasObstruction": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.ModTwoPullback": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.ModTwoPullbackRefinement": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.ModTwoGlobalPullback": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.ModTwoConstantPullback": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.IntrinsicPathPullback": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.GeometricPrincipalPullback": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.PresentedBundlePullback": {
+    "kind": "A,C,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.PullbackSpinCriterion": {
+    "kind": "A,C,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.SmoothPullbackChartedSpace": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.SmoothPrincipalPullback": {
+    "kind": "A,C,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.SmoothPullbackProjections": {
+    "kind": "C,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.ConstructedPullbackSpinCriterion": {
+    "kind": "A,C,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.SmoothPullbackMapping": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.GeometricPullbackComparisons": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.SmoothPullbackComparisons": {
+    "kind": "A,C,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.SmoothPullbackMapOver": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.SmoothPullbackCone": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.GeometricSpinPullback": {
+    "kind": "A,C,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.SpinPullbackClasses": {
+    "kind": "A,C,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.SpinPullbackFibers": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.SpinTargetTransport": {
+    "kind": "A,C,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.SpinPullbackTargetComparisons": {
+    "kind": "A,C,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.SpinPullbackIdentity": {
+    "kind": "A,C,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.SpinPullbackComposition": {
+    "kind": "A,C,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.SpinPullbackTransportNaturality": {
+    "kind": "A,C,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.SpinPullbackDescent": {
+    "kind": "A,C,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.SpinHOnePullback": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.SpinHOnePullbackRefinement": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.SpinHOneGlobalPullback": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.SpinHOnePullbackEquivalences": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.AdaptedSpinPullback": {
+    "kind": "A,C,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.AnchoredPullbackRefinement": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.RestrictedPrincipalPullback": {
+    "kind": "A,C,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.AnchoredAdaptedSpinPullback": {
+    "kind": "A,C,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.SpinPullbackAdaptation": {
+    "kind": "A,C,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.SpinPullbackRefinedPresentation": {
+    "kind": "A,C,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.SpinPullbackDisplacement": {
+    "kind": "A,C,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.SpinPullbackTorsor": {
+    "kind": "A,C,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.SpinPullbackCoverTwists": {
+    "kind": "A,C,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.SpinPullbackIteratedSigns": {
+    "kind": "A,C,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.SpinPullbackImage": {
+    "kind": "A,C,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.SpinPullbackKernelFiber": {
+    "kind": "A,C,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.SpinPullbackImageQuotient": {
+    "kind": "A,C,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.SpinPullbackDiffeomorph": {
+    "kind": "A,C,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.SpinHOneSectionSplit": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.SpinPullbackBasedSectionSplit": {
+    "kind": "A,C,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.SpinPullbackSectionSplit": {
+    "kind": "A,C,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.SpinPullbackSectionDescent": {
+    "kind": "A,C,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.SpinPullbackSectionRecovery": {
+    "kind": "A,C,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.SpinHOneLocallyConstantPullback": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.LocallyConstantSpinPullback": {
+    "kind": "A,C,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.ConstantSpinPullbackCriterion": {
+    "kind": "A,C,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.PuncturedPlaneConstantSpinPullback": {
+    "kind": "A,C,D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.TransitionNullhomotopyCriterion": {
+    "kind": "D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.LorentzLocalPathFamily": {
+    "kind": "D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.LocallyFiniteChartShrinking": {
+    "kind": "D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.ControlledTransitionRefinement": {
+    "kind": "D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.LocallyFiniteAtlasPresentation": {
+    "kind": "D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.ParacompactChartShrinking": {
+    "kind": "D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.ParacompactLorentzPresentation": {
+    "kind": "D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.ParacompactSmoothAtlasPaths": {
+    "kind": "D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.ParacompactBundleObstruction": {
+    "kind": "D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.LorentzAtlasHomeomorphism": {
+    "kind": "D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.ParacompactObstructionPullback": {
+    "kind": "D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.ParacompactCartesianObstruction": {
+    "kind": "D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.ParacompactSpinLiftCriterion": {
+    "kind": "D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.ParacompactMetricSpinCriterion": {
+    "kind": "D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.ParacompactTangentSpinCriterion": {
+    "kind": "D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.CartesianSpinLiftCriterion": {
+    "kind": "D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.GlobalLorentzGaugeAtlas": {
+    "kind": "D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.LorentzIdentityHomotopyObstruction": {
+    "kind": "D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.GlobalGaugePathCriterion": {
+    "kind": "D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.GlobalGaugePresentation": {
+    "kind": "D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.SmoothGlobalLorentzGaugeAtlas": {
+    "kind": "D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.LorentzGaugePresentationExample": {
+    "kind": "D",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.DiracPolarizedDensity": {
+    "kind": "A",
+    "labels": [
+      "thm:dirac_lift",
+      "eq:dirac_lagrangian_sym"
+    ]
+  },
+  "FoliationQM.DiracResidualPairing": {
+    "kind": "A",
+    "labels": [
+      "thm:dirac_lift"
+    ]
+  },
+  "FoliationQM.DiracAffineFieldVariation": {
+    "kind": "B",
+    "labels": [
+      "thm:dirac_lift",
+      "eq:dirac_lagrangian_sym"
+    ]
+  },
+  "FoliationQM.DiracJetFirstVariation": {
+    "kind": "B",
+    "labels": [
+      "thm:dirac_lift",
+      "eq:dirac_lagrangian_sym"
+    ]
+  },
+  "FoliationQM.DiracActionSupport": {
+    "kind": "C",
+    "labels": [
+      "thm:dirac_lift"
+    ]
+  },
+  "FoliationQM.DiracCurveJetCalculus": {
+    "kind": "B,C",
+    "labels": [
+      "thm:dirac_lift",
+      "eq:dirac_lagrangian_sym"
+    ]
+  },
+  "FoliationQM.DiracRelativeAction": {
+    "kind": "C",
+    "labels": [
+      "thm:dirac_lift",
+      "eq:dirac_lagrangian_sym"
+    ]
+  },
+  "FoliationQM.DiracInteriorVariation": {
+    "kind": "B,C",
+    "labels": [
+      "thm:dirac_lift"
+    ]
+  },
+  "FoliationQM.DiracCurveAction": {
+    "kind": "C",
+    "labels": [
+      "thm:dirac_lift",
+      "eq:dirac_lagrangian_sym"
+    ]
+  },
+  "FoliationQM.DiracCompactDivergence": {
+    "kind": "C",
+    "labels": [
+      "thm:dirac_lift"
+    ]
+  },
+  "FoliationQM.DiracVariationFlux": {
+    "kind": "A,B",
+    "labels": [
+      "thm:dirac_lift",
+      "eq:dirac_lagrangian_sym"
+    ]
+  },
+  "FoliationQM.DiracFluxSupport": {
+    "kind": "C",
+    "labels": [
+      "thm:dirac_lift"
+    ]
+  },
+  "FoliationQM.DiracResidualField": {
+    "kind": "B,C",
+    "labels": [
+      "thm:dirac_lift"
+    ]
+  },
+  "FoliationQM.DiracActionIntegrationByParts": {
+    "kind": "C",
+    "labels": [
+      "thm:dirac_lift",
+      "eq:dirac_lagrangian_sym"
+    ]
+  },
+  "FoliationQM.DiracFundamentalLemma": {
+    "kind": "B,C",
+    "labels": [
+      "thm:dirac_lift"
+    ]
+  },
+  "FoliationQM.DiracOnShellDensity": {
+    "kind": "A,B",
+    "labels": [
+      "thm:dirac_lift",
+      "eq:dirac_lagrangian_sym"
+    ]
+  },
+  "FoliationQM.DiracStationaryAction": {
+    "kind": "C",
+    "labels": [
+      "thm:dirac_lift",
+      "eq:dirac_lagrangian_sym"
+    ]
+  },
+  "FoliationQM.DiracRestField": {
+    "kind": "B",
+    "labels": [
+      "thm:dirac_lift"
+    ]
+  },
+  "FoliationQM.DiracStationaryExamples": {
+    "kind": "B,C",
+    "labels": [
+      "thm:dirac_lift"
+    ]
+  },
+  "FoliationQM.DiracPolarCoordinates": {
+    "kind": "C",
+    "labels": [
+      "prop:takabayasi",
+      "eq:takabayasi_polar"
+    ]
+  },
+  "FoliationQM.DiracRegularVariations": {
+    "kind": "C",
+    "labels": [
+      "thm:dirac_lift"
+    ]
+  },
+  "FoliationQM.DiracPolarVariation": {
+    "kind": "C",
+    "labels": [
+      "prop:takabayasi",
+      "thm:dirac_lift"
+    ]
+  },
+  "FoliationQM.DiracPolarVariationTransport": {
+    "kind": "C",
+    "labels": [
+      "prop:takabayasi",
+      "thm:dirac_lift"
+    ]
+  },
+  "FoliationQM.DiracPolarTestRealization": {
+    "kind": "C",
+    "labels": [
+      "thm:dirac_lift"
+    ]
+  },
+  "FoliationQM.DiracHSDensity": {
+    "kind": "A,B,C",
+    "labels": [
+      "eq:dirac_polar_lagrangian_main",
+      "prop:takabayasi",
+      "thm:dirac_lift"
+    ]
+  },
+  "FoliationQM.DiracHSAction": {
+    "kind": "B,C",
+    "labels": [
+      "eq:dirac_polar_lagrangian_main",
+      "eq:dirac_lagrangian_sym",
+      "thm:dirac_lift"
+    ]
+  },
+  "FoliationQM.DiracHSVariation": {
+    "kind": "B,C",
+    "labels": [
+      "eq:dirac_polar_lagrangian_main",
+      "thm:dirac_lift"
+    ]
+  },
+  "FoliationQM.DiracHSStationarity": {
+    "kind": "C",
+    "labels": [
+      "thm:dirac_lift",
+      "eq:dirac_polar_lagrangian_main"
+    ]
+  },
+  "FoliationQM.DiracHSExamples": {
+    "kind": "B,C",
+    "labels": [
+      "thm:dirac_lift"
+    ]
+  },
+  "FoliationQM.MassiveSpinKinetic": {
+    "kind": "A,B",
+    "labels": [
+      "thm:dirac_lift"
+    ]
+  },
+  "FoliationQM.ScalarRestKinetic": {
+    "kind": "A,B",
+    "labels": [
+      "thm:dirac_lift"
+    ]
+  },
+  "FoliationQM.ScalarPlanePhase": {
+    "kind": "A,B",
+    "labels": [
+      "thm:dirac_lift",
+      "lem:maurer_cartan"
+    ]
+  },
+  "FoliationQM.ScalarSpinDefect": {
+    "kind": "A,B",
+    "labels": [
+      "thm:dirac_lift"
+    ]
+  },
+  "FoliationQM.ScalarSectorDensity": {
+    "kind": "B",
+    "labels": [
+      "thm:dirac_lift",
+      "thm:kahler"
+    ]
+  },
+  "FoliationQM.ScalarSpinPrimitive": {
+    "kind": "B,C",
+    "labels": [
+      "lem:maurer_cartan",
+      "thm:dirac_lift"
+    ]
+  },
+  "FoliationQM.ScalarSectorAction": {
+    "kind": "B,C",
+    "labels": [
+      "thm:dirac_lift",
+      "thm:kahler"
+    ]
+  },
+  "FoliationQM.ScalarPhaseReversal": {
+    "kind": "B,C",
+    "labels": [
+      "thm:dirac_lift",
+      "thm:kahler"
+    ]
+  },
+  "FoliationQM.ScalarLocalReduction": {
+    "kind": "B,C",
+    "labels": [
+      "thm:dirac_lift"
+    ]
+  },
+  "FoliationQM.TwistedScalarJet": {
+    "kind": "A",
+    "labels": [
+      "thm:dirac_lift"
+    ]
+  },
+  "FoliationQM.TwistedScalarField": {
+    "kind": "B",
+    "labels": [
+      "thm:dirac_lift",
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.TwistedScalarDensity": {
+    "kind": "A,B",
+    "labels": [
+      "thm:dirac_lift"
+    ]
+  },
+  "FoliationQM.TwistedScalarAngles": {
+    "kind": "B,C",
+    "labels": [
+      "thm:dirac_lift"
+    ]
+  },
+  "FoliationQM.TwistedScalarControl": {
+    "kind": "B,C",
+    "labels": [
+      "thm:dirac_lift"
+    ]
+  },
+  "FoliationQM.TwistedScalarAction": {
+    "kind": "B,C,D",
+    "labels": [
+      "thm:dirac_lift"
+    ]
+  },
+  "FoliationQM.ScaledChiralAction": {
+    "kind": "B,C",
+    "labels": [
+      "thm:dirac_lift"
+    ]
+  },
+  "FoliationQM.ScalarFrameIntegralLimit": {
+    "kind": "B,C,D",
+    "labels": [
+      "thm:dirac_lift"
+    ]
+  },
+  "FoliationQM.InvariantSpinMassDensity": {
+    "kind": "A,B,C",
+    "labels": [
+      "thm:dirac_lift",
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.TwistedOscillationIntegral": {
+    "kind": "B,C",
+    "labels": [
+      "thm:dirac_lift"
+    ]
+  },
+  "FoliationQM.TwistedScalarVariation": {
+    "kind": "B,C",
+    "labels": [
+      "thm:dirac_lift"
+    ]
+  },
+  "FoliationQM.TwistedScalarCurveData": {
+    "kind": "B,C",
+    "labels": [
+      "thm:dirac_lift"
+    ]
+  },
+  "FoliationQM.TwistedScalarCurve": {
+    "kind": "B,C",
+    "labels": [
+      "thm:dirac_lift"
+    ]
+  },
+  "FoliationQM.TwistedScalarStationarity": {
+    "kind": "B,C",
+    "labels": [
+      "thm:dirac_lift",
+      "thm:kahler"
+    ]
+  },
+  "FoliationQM.TwistedRegularStationarity": {
+    "kind": "C",
+    "labels": [
+      "thm:dirac_lift"
+    ]
+  },
+  "FoliationQM.ChiralEffectiveMass": {
+    "kind": "A,B,C",
+    "labels": [
+      "thm:dirac_lift",
+      "thm:kahler"
+    ]
+  },
+  "FoliationQM.ScalarLocalTesting": {
+    "kind": "C",
+    "labels": [
+      "thm:dirac_lift"
+    ]
+  },
+  "FoliationQM.ScalarKGGreen": {
+    "kind": "B,C",
+    "labels": [
+      "thm:dirac_lift",
+      "thm:kahler"
+    ]
+  },
+  "FoliationQM.StationaryScalarLimit": {
+    "kind": "C,D",
+    "labels": [
+      "thm:dirac_lift",
+      "thm:kahler"
+    ]
+  },
+  "FoliationQM.ChiralModeLimit": {
+    "kind": "B,C",
+    "labels": [
+      "thm:dirac_lift"
+    ]
+  },
+  "FoliationQM.ChiralSourceLimit": {
+    "kind": "C,D",
+    "labels": [
+      "thm:dirac_lift",
+      "thm:kahler"
+    ]
+  },
+  "FoliationQM.TakabayasiV13": {
+    "kind": "A,C",
+    "labels": [
+      "prop:takabayasi"
+    ]
+  },
+  "FoliationQM.SpinRotationCurvatureV13": {
+    "kind": "A,B",
+    "labels": [
+      "thm:dirac_lift"
+    ]
+  },
+  "FoliationQM.DiracLiftV13": {
+    "kind": "B,C",
+    "labels": [
+      "thm:dirac_lift"
+    ]
+  },
+  "FoliationQM.DressedMassDensityVariation": {
+    "kind": "B",
+    "labels": [
+      "eq:dressed_mass_velocity",
+      "thm:adm_positivity"
+    ]
+  },
+  "FoliationQM.DressedMassShell": {
+    "kind": "A",
+    "labels": [
+      "eq:dressed_mass_velocity",
+      "thm:adm_positivity"
+    ]
+  },
+  "FoliationQM.DressedMassField": {
+    "kind": "A,B",
+    "labels": [
+      "eq:dressed_mass_velocity",
+      "thm:adm_positivity"
+    ]
+  },
+  "FoliationQM.DressedMassStandingWave": {
+    "kind": "A,B",
+    "labels": [
+      "eq:dressed_mass_velocity",
+      "thm:adm_positivity"
+    ]
+  },
+  "FoliationQM.DressedClockForms": {
+    "kind": "A,B",
+    "labels": [
+      "eq:clock_vs_proper_oneform",
+      "thm:adm_positivity"
+    ]
+  },
+  "FoliationQM.DressedClockWorldline": {
+    "kind": "B",
+    "labels": [
+      "eq:clock_vs_proper_oneform",
+      "thm:adm_positivity"
+    ]
+  },
+  "FoliationQM.NodalClockForm": {
+    "kind": "B",
+    "labels": [
+      "eq:clock_vs_proper_oneform"
+    ]
+  },
+  "FoliationQM.ScalarPhaseCurrent": {
+    "kind": "A,B",
+    "labels": [
+      "eq:noether_current",
+      "thm:adm_positivity"
+    ]
+  },
+  "FoliationQM.ScalarNoetherSymmetry": {
+    "kind": "A,B",
+    "labels": [
+      "eq:noether_current"
+    ]
+  },
+  "FoliationQM.ScalarNoetherAction": {
+    "kind": "B",
+    "labels": [
+      "eq:noether_current"
+    ]
+  },
+  "FoliationQM.ScalarDressedCurrent": {
+    "kind": "A,B",
+    "labels": [
+      "eq:noether_current",
+      "thm:adm_positivity"
+    ]
+  },
+  "FoliationQM.ObserverBoostFactor": {
+    "kind": "A",
+    "labels": [
+      "eq:jacobian_density",
+      "thm:adm_positivity"
+    ]
+  },
+  "FoliationQM.ObserverRestVolume": {
+    "kind": "A,C",
+    "labels": [
+      "eq:jacobian_density",
+      "thm:adm_positivity"
+    ]
+  },
+  "FoliationQM.ObserverFluxDensity": {
+    "kind": "A,B",
+    "labels": [
+      "eq:jacobian_density",
+      "thm:adm_positivity"
+    ]
+  },
+  "FoliationQM.LogDensityTransport": {
+    "kind": "A,B",
+    "labels": [
+      "eq:normal_log_rho",
+      "thm:adm_positivity"
+    ]
+  },
+  "FoliationQM.PhaseCurrentTransport": {
+    "kind": "B",
+    "labels": [
+      "eq:normal_log_rho",
+      "thm:adm_positivity"
+    ]
+  },
+  "FoliationQM.NormalLogDensity": {
+    "kind": "B",
+    "labels": [
+      "eq:normal_log_rho",
+      "thm:adm_positivity"
+    ]
+  },
+  "FoliationQM.OsmoticSliceFields": {
+    "kind": "A,B",
+    "labels": [
+      "eq:spacelike_coercivity",
+      "thm:adm_positivity"
+    ]
+  },
+  "FoliationQM.WeightedOsmoticCoercivity": {
+    "kind": "A,B",
+    "labels": [
+      "eq:dilatation_coercivity_bound",
+      "eq:spacelike_coercivity"
+    ]
+  },
+  "FoliationQM.SpacelikeOsmoticIntegral": {
+    "kind": "B",
+    "labels": [
+      "eq:spacelike_coercivity",
+      "eq:dilatation_coercivity_bound",
+      "thm:adm_positivity"
+    ]
+  },
+  "FoliationQM.StandingWaveCoercivity": {
+    "kind": "B",
+    "labels": [
+      "eq:dilatation_coercivity_bound",
+      "eq:spacelike_coercivity"
+    ]
+  },
+  "FoliationQM.SpatialFisherEnergy": {
+    "kind": "B",
+    "labels": [
+      "thm:adm_positivity"
+    ]
+  },
+  "FoliationQM.CanonicalScalarEnergy": {
+    "kind": "A,B",
+    "labels": [
+      "thm:adm_positivity"
+    ]
+  },
+  "FoliationQM.ADMSliceHamiltonian": {
+    "kind": "B",
+    "labels": [
+      "thm:adm_positivity"
+    ]
+  },
+  "FoliationQM.DressedSliceMeasure": {
+    "kind": "B,C",
+    "labels": [
+      "thm:adm_positivity"
+    ]
+  },
+  "FoliationQM.DressedMassLimit": {
+    "kind": "B",
+    "labels": [
+      "thm:adm_positivity"
+    ]
+  },
+  "FoliationQM.GaussianCauchySlice": {
+    "kind": "B,D",
+    "labels": [
+      "eq:dilatation_coercivity_bound",
+      "thm:adm_positivity"
+    ]
+  },
+  "FoliationQM.GaussianSliceMoments": {
+    "kind": "C",
+    "labels": [
+      "eq:dilatation_coercivity_bound",
+      "thm:adm_positivity"
+    ]
+  },
+  "FoliationQM.GaussianKGMode": {
+    "kind": "B,C",
+    "labels": [
+      "eq:dilatation_coercivity_bound"
+    ]
+  },
+  "FoliationQM.GaussianSliceCoercivity": {
+    "kind": "C,D",
+    "labels": [
+      "eq:dilatation_coercivity_bound",
+      "eq:spacelike_coercivity",
+      "thm:adm_positivity"
+    ]
+  },
+  "FoliationQM.GaussianKGInitialJet": {
+    "kind": "B,C",
+    "labels": [
+      "eq:dilatation_coercivity_bound",
+      "thm:adm_positivity"
+    ]
+  },
+  "FoliationQM.GaussianSpatialFourier": {
+    "kind": "C",
+    "labels": [
+      "eq:dilatation_coercivity_bound"
+    ]
+  },
+  "FoliationQM.GaussianCosineTest": {
+    "kind": "C",
+    "labels": [
+      "eq:dilatation_coercivity_bound",
+      "thm:adm_positivity"
+    ]
+  },
+  "FoliationQM.GaussianSpectralWitness": {
+    "kind": "C",
+    "labels": [
+      "eq:dilatation_coercivity_bound"
+    ]
+  },
+  "FoliationQM.GaussianSpectralWidth": {
+    "kind": "B,C",
+    "labels": [
+      "eq:dilatation_coercivity_bound"
+    ]
+  },
+  "FoliationQM.GaussianNormalOrientation": {
+    "kind": "B,C,D",
+    "labels": [
+      "eq:dilatation_coercivity_bound",
+      "thm:adm_positivity"
+    ]
+  },
+  "FoliationQM.MassShellFourier": {
+    "kind": "C",
+    "labels": [
+      "eq:dilatation_coercivity_bound"
+    ]
+  },
+  "FoliationQM.GaussianMassShellMoments": {
+    "kind": "C",
+    "labels": [
+      "eq:dilatation_coercivity_bound"
+    ]
+  },
+  "FoliationQM.GaussianPositiveFrequencyPacket": {
+    "kind": "B,C",
+    "labels": [
+      "eq:dilatation_coercivity_bound",
+      "thm:adm_positivity"
+    ]
+  },
+  "FoliationQM.GaussianBranchMixing": {
+    "kind": "C,D",
+    "labels": [
+      "eq:dilatation_coercivity_bound"
+    ]
+  },
+  "FoliationQM.GaussianMixedCauchyWave": {
+    "kind": "B,C",
+    "labels": [
+      "eq:dilatation_coercivity_bound",
+      "thm:adm_positivity"
+    ]
+  },
+  "FoliationQM.GaussianGlobalCauchyData": {
+    "kind": "B,C,D",
+    "labels": [
+      "eq:dilatation_coercivity_bound",
+      "thm:adm_positivity",
+      "eq:spacelike_coercivity"
+    ]
+  },
+  "FoliationQM.GaussianSpectralApproximation": {
+    "kind": "C",
+    "labels": [
+      "eq:dilatation_coercivity_bound"
+    ]
+  },
+  "FoliationQM.GaussianSpectralPairing": {
+    "kind": "C",
+    "labels": [
+      "eq:dilatation_coercivity_bound"
+    ]
+  },
+  "FoliationQM.GaussianNormalSpectrum": {
+    "kind": "C",
+    "labels": [
+      "eq:dilatation_coercivity_bound"
+    ]
+  },
+  "FoliationQM.GaussianNormalSpectralSign": {
+    "kind": "B,C",
+    "labels": [
+      "eq:dilatation_coercivity_bound",
+      "thm:adm_positivity"
+    ]
+  },
+  "FoliationQM.GaussianPacketPolarDomain": {
+    "kind": "B,C,D",
+    "labels": [
+      "eq:dilatation_coercivity_bound",
+      "thm:adm_positivity"
+    ]
+  },
+  "FoliationQM.GaussianPacketCurrentSign": {
+    "kind": "B,C,D",
+    "labels": [
+      "eq:dilatation_coercivity_bound",
+      "thm:adm_positivity"
+    ]
+  },
+  "FoliationQM.GaussianRegionalCoercivity": {
+    "kind": "C,D",
+    "labels": [
+      "eq:dilatation_coercivity_bound",
+      "thm:adm_positivity"
+    ]
+  },
+  "FoliationQM.GaussianPacketOsmoticIntegral": {
+    "kind": "B,C,D",
+    "labels": [
+      "eq:spacelike_coercivity",
+      "eq:dilatation_coercivity_bound",
+      "thm:adm_positivity"
+    ]
+  },
+  "FoliationQM.GaussianPacketTimeRegularity": {
+    "kind": "B,C",
+    "labels": [
+      "eq:dilatation_coercivity_bound",
+      "thm:adm_positivity"
+    ]
+  },
+  "FoliationQM.GaussianPacketTimeWindow": {
+    "kind": "B,C",
+    "labels": [
+      "eq:dilatation_coercivity_bound"
+    ]
+  },
+  "FoliationQM.GaussianPacketTimeCoercivity": {
+    "kind": "C,D",
+    "labels": [
+      "eq:dilatation_coercivity_bound",
+      "thm:adm_positivity"
+    ]
+  },
+  "FoliationQM.GaussianPacketLaboratoryInterval": {
+    "kind": "B,C,D",
+    "labels": [
+      "eq:dilatation_coercivity_bound",
+      "eq:spacelike_coercivity",
+      "thm:adm_positivity"
+    ]
+  },
+  "FoliationQM.GaussianCompactFutureTube": {
+    "kind": "B,C",
+    "labels": [
+      "eq:dilatation_coercivity_bound",
+      "thm:adm_positivity"
+    ]
+  },
+  "FoliationQM.GaussianCompactSliceMoments": {
+    "kind": "C",
+    "labels": [
+      "eq:dilatation_coercivity_bound",
+      "eq:spacelike_coercivity"
+    ]
+  },
+  "FoliationQM.GaussianPrescribedRegion": {
+    "kind": "B,C,D",
+    "labels": [
+      "eq:dilatation_coercivity_bound",
+      "eq:spacelike_coercivity",
+      "thm:adm_positivity"
+    ]
+  },
+  "FoliationQM.GaussianCompactOsmoticMargin": {
+    "kind": "C,D",
+    "labels": [
+      "eq:spacelike_coercivity",
+      "thm:adm_positivity"
+    ]
+  },
+  "FoliationQM.GaussianPacketParity": {
+    "kind": "B,C",
+    "labels": [
+      "eq:dilatation_coercivity_bound",
+      "thm:adm_positivity"
+    ]
+  },
+  "FoliationQM.GaussianCenterFrequencyVariance": {
+    "kind": "B,C",
+    "labels": [
+      "eq:dilatation_coercivity_bound"
+    ]
+  },
+  "FoliationQM.GaussianCenterDilatation": {
+    "kind": "B,C,D",
+    "labels": [
+      "eq:normal_log_rho",
+      "eq:dilatation_coercivity_bound"
+    ]
+  },
+  "FoliationQM.GaussianShrinkingBallFailure": {
+    "kind": "C,D",
+    "labels": [
+      "eq:dilatation_coercivity_bound",
+      "eq:spacelike_coercivity",
+      "thm:adm_positivity"
+    ]
+  },
+  "FoliationQM.GaussianProperTimeMultiplier": {
+    "kind": "B,C",
+    "labels": [
+      "eq:dilatation_coercivity_bound"
+    ]
+  },
+  "FoliationQM.GaussianHeatProfile": {
+    "kind": "B,C",
+    "labels": [
+      "eq:dilatation_coercivity_bound"
+    ]
+  },
+  "FoliationQM.GaussianProperTimeFourier": {
+    "kind": "B,C",
+    "labels": [
+      "eq:dilatation_coercivity_bound",
+      "thm:adm_positivity"
+    ]
+  },
+  "FoliationQM.GaussianRadialHeatLoss": {
+    "kind": "B,C",
+    "labels": [
+      "eq:dilatation_coercivity_bound",
+      "thm:adm_positivity"
+    ]
+  },
+  "FoliationQM.GaussianHeatLossTail": {
+    "kind": "B,C",
+    "labels": [
+      "eq:dilatation_coercivity_bound"
+    ]
+  },
+  "FoliationQM.GaussianRadialNormalRatio": {
+    "kind": "B,C",
+    "labels": [
+      "eq:dilatation_coercivity_bound",
+      "thm:adm_positivity"
+    ]
+  },
+  "FoliationQM.GaussianNormalTransitionRadius": {
+    "kind": "C,D",
+    "labels": [
+      "eq:dilatation_coercivity_bound",
+      "thm:adm_positivity"
+    ]
+  },
+  "FoliationQM.GaussianEuclideanRegions": {
+    "kind": "B,C,D",
+    "labels": [
+      "eq:dilatation_coercivity_bound",
+      "thm:adm_positivity"
+    ]
+  },
+  "FoliationQM.GaussianFutureCurrentGeometry": {
+    "kind": "C,D",
+    "labels": [
+      "thm:adm_positivity",
+      "eq:dilatation_coercivity_bound"
+    ]
+  },
+  "FoliationQM.GaussianCurrentCollar": {
+    "kind": "C,D",
+    "labels": [
+      "thm:adm_positivity",
+      "eq:dilatation_coercivity_bound"
+    ]
+  },
+  "FoliationQM.GaussianPersistentCurrentZero": {
+    "kind": "C,D",
+    "labels": [
+      "thm:adm_positivity",
+      "eq:dilatation_coercivity_bound"
+    ]
+  },
+  "FoliationQM.GaussianInteriorCoercivity": {
+    "kind": "C,D",
+    "labels": [
+      "thm:adm_positivity",
+      "eq:dilatation_coercivity_bound",
+      "eq:spacelike_coercivity"
+    ]
+  },
+  "FoliationQM.WeightedLatticeHamiltonian": {
+    "kind": "A,C",
+    "labels": [
+      "eq:s1_lattice_hamiltonian",
+      "eq:polar_kahler_lattice"
+    ]
+  },
+  "FoliationQM.LatticeHamiltonianEquality": {
+    "kind": "A,C",
+    "labels": [
+      "eq:s1_lattice_hamiltonian"
+    ]
+  },
+  "FoliationQM.LatticeMeshDefect": {
+    "kind": "A,C",
+    "labels": [
+      "eq:s1_lattice_hamiltonian"
+    ]
+  },
+  "FoliationQM.LatticeSmoothSampling": {
+    "kind": "A,C",
+    "labels": [
+      "eq:s1_lattice_hamiltonian"
+    ]
+  },
+  "FoliationQM.LatticeNodalMeshRate": {
+    "kind": "A,C",
+    "labels": [
+      "eq:s1_lattice_hamiltonian"
+    ]
+  },
+  "FoliationQM.LatticeNeumannGreen": {
+    "kind": "A",
+    "labels": [
+      "eq:polar_kahler_lattice"
+    ]
+  },
+  "FoliationQM.LatticeComplexEnergy": {
+    "kind": "A",
+    "labels": [
+      "eq:polar_kahler_lattice"
+    ]
+  },
+  "FoliationQM.LatticeNeumannHamiltonian": {
+    "kind": "A",
+    "labels": [
+      "eq:polar_kahler_lattice"
+    ]
+  },
+  "FoliationQM.LatticeNeumannMatrix": {
+    "kind": "A",
+    "labels": [
+      "eq:polar_kahler_lattice"
+    ]
+  },
+  "FoliationQM.LatticeEnergyDifferential": {
+    "kind": "C",
+    "labels": [
+      "eq:polar_kahler_lattice"
+    ]
+  },
+  "FoliationQM.LatticePolarStencil": {
+    "kind": "A",
+    "labels": [
+      "eq:polar_kahler_lattice",
+      "eq:polar_dR_dt",
+      "eq:polar_dtau_dt"
+    ]
+  },
+  "FoliationQM.LatticePolarVariation": {
+    "kind": "B,C",
+    "labels": [
+      "eq:polar_kahler_lattice",
+      "eq:polar_dR_dt",
+      "eq:polar_dtau_dt"
+    ]
+  },
+  "FoliationQM.LatticeSiteVariation": {
+    "kind": "C",
+    "labels": [
+      "eq:polar_kahler_lattice",
+      "eq:polar_dR_dt",
+      "eq:polar_dtau_dt"
+    ]
+  },
+  "FoliationQM.LatticeClockRegularization": {
+    "kind": "A,C",
+    "labels": [
+      "eq:polar_dtau_dt",
+      "eq:polar_kahler_lattice"
+    ]
+  },
+  "FoliationQM.LatticeLagHamiltonian": {
+    "kind": "A,B,C",
+    "labels": [
+      "eq:polar_dR_dt",
+      "eq:polar_dtau_dt",
+      "eq:polar_kahler_lattice"
+    ]
+  },
+  "FoliationQM.LatticeRegularizedFlow": {
+    "kind": "C",
+    "labels": [
+      "eq:polar_dR_dt",
+      "eq:polar_dtau_dt"
+    ]
+  },
+  "FoliationQM.LatticePolarSignChange": {
+    "kind": "A",
+    "labels": [
+      "eq:polar_dR_dt",
+      "eq:polar_dtau_dt",
+      "eq:polar_kahler_lattice"
+    ]
+  },
+  "FoliationQM.LatticeSchrodingerResidual": {
+    "kind": "A,B",
+    "labels": [
+      "eq:polar_kahler_lattice",
+      "eq:polar_dR_dt",
+      "eq:polar_dtau_dt"
+    ]
+  },
+  "FoliationQM.LatticeSchrodingerReconstruction": {
+    "kind": "B,C",
+    "labels": [
+      "eq:polar_kahler_lattice",
+      "eq:polar_dR_dt",
+      "eq:polar_dtau_dt"
+    ]
+  },
+  "FoliationQM.LatticeSchrodingerLocalLift": {
+    "kind": "C",
+    "labels": [
+      "eq:polar_kahler_lattice",
+      "eq:polar_dR_dt",
+      "eq:polar_dtau_dt"
+    ]
+  },
+  "FoliationQM.LatticeNodalResidual": {
+    "kind": "A,C",
+    "labels": [
+      "eq:polar_dtau_dt",
+      "eq:polar_kahler_lattice"
+    ]
+  },
+  "FoliationQM.LatticePolarEnergyBalance": {
+    "kind": "A,C",
+    "labels": [
+      "eq:polar_kahler_lattice",
+      "eq:polar_dtau_dt"
+    ]
+  },
+  "FoliationQM.LatticeEnergyDriftBound": {
+    "kind": "C",
+    "labels": [
+      "eq:polar_kahler_lattice",
+      "eq:polar_dtau_dt"
+    ]
+  },
+  "FoliationQM.LatticeTwoSiteEnergyDrift": {
+    "kind": "A",
+    "labels": [
+      "eq:polar_kahler_lattice",
+      "eq:polar_dtau_dt"
+    ]
+  },
+  "FoliationQM.LatticeRegularizedEnergyLoss": {
+    "kind": "C",
+    "labels": [
+      "eq:polar_kahler_lattice",
+      "eq:polar_dtau_dt"
+    ]
+  },
+  "FoliationQM.LatticeNeumannReferenceRows": {
+    "kind": "A,C",
+    "labels": [
+      "eq:polar_kahler_lattice"
+    ]
+  },
+  "FoliationQM.LatticeUnitaryPropagator": {
+    "kind": "A,C",
+    "labels": [
+      "eq:polar_kahler_lattice"
+    ]
+  },
+  "FoliationQM.LatticeUnitaryTrajectory": {
+    "kind": "A,C",
+    "labels": [
+      "eq:polar_kahler_lattice"
+    ]
+  },
+  "FoliationQM.LatticePropagatorUniqueness": {
+    "kind": "A,C",
+    "labels": [
+      "eq:polar_kahler_lattice"
+    ]
+  },
+  "FoliationQM.LatticeLinkCurrent": {
+    "kind": "A,C",
+    "labels": [
+      "eq:s1_staggered_velocity"
+    ]
+  },
+  "FoliationQM.LatticeLocalContinuity": {
+    "kind": "A,C",
+    "labels": [
+      "eq:s1_staggered_velocity"
+    ]
+  },
+  "FoliationQM.LatticeStaggeredVelocity": {
+    "kind": "A,C",
+    "labels": [
+      "eq:s1_staggered_velocity"
+    ]
+  },
+  "FoliationQM.LatticeRegionFlux": {
+    "kind": "A,C",
+    "labels": [
+      "eq:s1_staggered_velocity"
+    ]
+  },
+  "FoliationQM.LatticeCenteredTaylor": {
+    "kind": "C",
+    "labels": [
+      "eq:s1_staggered_velocity"
+    ]
+  },
+  "FoliationQM.LatticeMidpointCurrent": {
+    "kind": "C",
+    "labels": [
+      "eq:s1_staggered_velocity"
+    ]
+  },
+  "FoliationQM.LatticeLeftEndpointError": {
+    "kind": "C",
+    "labels": [
+      "eq:s1_staggered_velocity"
+    ]
+  },
+  "FoliationQM.LatticeMidpointGrid": {
+    "kind": "C",
+    "labels": [
+      "eq:s1_staggered_velocity"
+    ]
+  },
+  "FoliationQM.LatticeCenteredSiteCurrent": {
+    "kind": "A,C",
+    "labels": [
+      "eq:s1_staggered_velocity"
+    ]
+  },
+  "FoliationQM.LatticeSiteVelocityLimit": {
+    "kind": "A,C",
+    "labels": [
+      "eq:s1_staggered_velocity"
+    ]
+  },
+  "FoliationQM.LatticeInteriorVelocityGrid": {
+    "kind": "A,C",
+    "labels": [
+      "eq:s1_staggered_velocity"
+    ]
+  },
+  "FoliationQM.LatticeBoundaryVelocity": {
+    "kind": "A,C",
+    "labels": [
+      "eq:s1_staggered_velocity"
+    ]
+  },
+  "FoliationQM.LatticeDuhamel": {
+    "kind": "C",
+    "labels": [
+      "eq:polar_kahler_lattice"
+    ]
+  },
+  "FoliationQM.LatticeResidualHilbertNorm": {
+    "kind": "A",
+    "labels": [
+      "eq:polar_kahler_lattice",
+      "eq:polar_dtau_dt"
+    ]
+  },
+  "FoliationQM.LatticePolarTrajectoryError": {
+    "kind": "C",
+    "labels": [
+      "eq:polar_kahler_lattice",
+      "eq:polar_dR_dt",
+      "eq:polar_dtau_dt"
+    ]
+  },
+  "FoliationQM.LatticeRectangularTrajectoryError": {
+    "kind": "C",
+    "labels": [
+      "eq:polar_kahler_lattice",
+      "eq:polar_dtau_dt"
+    ]
+  },
+  "FoliationQM.ObserverNormalizedShape": {
+    "kind": "C",
+    "labels": [
+      "rem:clock_unification_vs_stochastic"
+    ]
+  },
+  "FoliationQM.ObserverFisherProduct": {
+    "kind": "C",
+    "labels": [
+      "rem:clock_unification_vs_stochastic"
+    ]
+  },
+  "FoliationQM.ObserverFisherBilinear": {
+    "kind": "C",
+    "labels": [
+      "rem:clock_unification_vs_stochastic"
+    ]
+  },
+  "FoliationQM.ObserverFisherMatrix": {
+    "kind": "C",
+    "labels": [
+      "rem:clock_unification_vs_stochastic"
+    ]
+  },
+  "FoliationQM.ObserverFisherTrace": {
+    "kind": "C",
+    "labels": [
+      "rem:clock_unification_vs_stochastic"
+    ]
+  },
+  "FoliationQM.ObserverCurrentFactor": {
+    "kind": "C",
+    "labels": [
+      "rem:clock_unification_vs_stochastic",
+      "eq:jacobian_density"
+    ]
+  },
+  "FoliationQM.ObserverSliceFisher": {
+    "kind": "C",
+    "labels": [
+      "rem:clock_unification_vs_stochastic"
+    ]
+  },
+  "FoliationQM.ObserverGaussianFisher": {
+    "kind": "C",
+    "labels": [
+      "rem:clock_unification_vs_stochastic"
+    ]
+  },
+  "FoliationQM.ObserverWeightStability": {
+    "kind": "C",
+    "labels": [
+      "rem:clock_unification_vs_stochastic"
+    ]
+  },
+  "FoliationQM.ObserverShapeStability": {
+    "kind": "C",
+    "labels": [
+      "rem:clock_unification_vs_stochastic"
+    ]
+  },
+  "FoliationQM.ObserverFisherStability": {
+    "kind": "C",
+    "labels": [
+      "rem:clock_unification_vs_stochastic"
+    ]
+  },
+  "FoliationQM.ObserverFisherLimit": {
+    "kind": "C",
+    "labels": [
+      "rem:clock_unification_vs_stochastic"
+    ]
+  },
+  "FoliationQM.ObserverOscillatingFactor": {
+    "kind": "C",
+    "labels": [
+      "rem:clock_unification_vs_stochastic"
+    ]
+  },
+  "FoliationQM.ObserverOscillatingBox": {
+    "kind": "C",
+    "labels": [
+      "rem:clock_unification_vs_stochastic"
+    ]
+  },
+  "FoliationQM.ObserverPrescribedFactor": {
+    "kind": "C",
+    "labels": [
+      "rem:clock_unification_vs_stochastic"
+    ]
+  },
+  "FoliationQM.ObserverCurrentFisherLimitTest": {
+    "kind": "C",
+    "labels": [
+      "rem:clock_unification_vs_stochastic"
+    ]
+  },
+  "FoliationQM.TranslationDensityRigidity": {
+    "kind": "C",
+    "labels": [
+      "rem:clock_unification_vs_stochastic"
+    ]
+  },
+  "FoliationQM.TranslationFisherDefiniteness": {
+    "kind": "C",
+    "labels": [
+      "rem:clock_unification_vs_stochastic"
+    ]
+  },
+  "FoliationQM.TranslationFisherMatrix": {
+    "kind": "C",
+    "labels": [
+      "rem:clock_unification_vs_stochastic"
+    ]
+  },
+  "FoliationQM.RegionalFisherRank": {
+    "kind": "C",
+    "labels": [
+      "rem:clock_unification_vs_stochastic"
+    ]
+  },
+  "FoliationQM.StatisticalFisherMetric": {
+    "kind": "C",
+    "labels": [
+      "rem:clock_unification_vs_stochastic"
+    ]
+  },
+  "FoliationQM.TwoParticleMarginals": {
+    "kind": "C",
+    "labels": [
+      "prop:fisher_excess",
+      "eq:fisher_excess_main",
+      "eq:score_zero"
+    ]
+  },
+  "FoliationQM.MarginalDifferentiation": {
+    "kind": "C",
+    "labels": [
+      "prop:fisher_excess",
+      "eq:fisher_excess_main",
+      "eq:score_zero"
+    ]
+  },
+  "FoliationQM.ProductDensityRegularity": {
+    "kind": "C",
+    "labels": [
+      "prop:fisher_excess",
+      "eq:score_zero"
+    ]
+  },
+  "FoliationQM.ConditionalExpectationIntegral": {
+    "kind": "C",
+    "labels": [
+      "prop:fisher_excess",
+      "eq:fisher_excess_main"
+    ]
+  },
+  "FoliationQM.TwoParticleGaussianModel": {
+    "kind": "C",
+    "labels": [
+      "prop:fisher_excess",
+      "eq:fisher_excess_main"
+    ]
+  },
+  "FoliationQM.ConditionalScoreCentering": {
+    "kind": "C",
+    "labels": [
+      "eq:score_zero",
+      "eq:fisher_excess_main",
+      "prop:fisher_excess"
+    ]
+  },
+  "FoliationQM.ConditionalScoreVector": {
+    "kind": "C",
+    "labels": [
+      "eq:score_zero",
+      "eq:fisher_excess_main",
+      "prop:fisher_excess"
+    ]
+  },
+  "FoliationQM.JointScoreRegularity": {
+    "kind": "C",
+    "labels": [
+      "eq:score_zero",
+      "eq:fisher_excess_main",
+      "prop:fisher_excess"
+    ]
+  },
+  "FoliationQM.GaussianConditionalCentering": {
+    "kind": "C",
+    "labels": [
+      "eq:score_zero",
+      "eq:fisher_excess_main",
+      "prop:fisher_excess"
+    ]
+  },
+  "FoliationQM.ConditionalScoreDecomposition": {
+    "kind": "C",
+    "labels": [
+      "prop:fisher_excess",
+      "eq:fisher_excess_main"
+    ]
+  },
+  "FoliationQM.ConditionalVariance": {
+    "kind": "C",
+    "labels": [
+      "prop:fisher_excess",
+      "eq:fisher_excess_main"
+    ]
+  },
+  "FoliationQM.TwoParticleFisher": {
+    "kind": "C",
+    "labels": [
+      "prop:fisher_excess",
+      "eq:fisher_excess_main"
+    ]
+  },
+  "FoliationQM.GaussianConditionalVariance": {
+    "kind": "C",
+    "labels": [
+      "prop:fisher_excess",
+      "eq:fisher_excess_main"
+    ]
+  },
+  "FoliationQM.JointFisherFiniteness": {
+    "kind": "C",
+    "labels": [
+      "eq:fisher_excess_main",
+      "prop:fisher_excess"
+    ]
+  },
+  "FoliationQM.IntegratedConditionalVariance": {
+    "kind": "C",
+    "labels": [
+      "eq:fisher_excess_main",
+      "prop:fisher_excess"
+    ]
+  },
+  "FoliationQM.IntegratedTwoParticleFisher": {
+    "kind": "C",
+    "labels": [
+      "eq:fisher_excess_main",
+      "prop:fisher_excess"
+    ]
+  },
+  "FoliationQM.GaussianFisherExcess": {
+    "kind": "C",
+    "labels": [
+      "eq:fisher_excess_main",
+      "prop:fisher_excess"
+    ]
+  },
+  "FoliationQM.FisherParticleExchange": {
+    "kind": "C",
+    "labels": [
+      "prop:fisher_excess"
+    ]
+  },
+  "FoliationQM.FisherMarginalDefect": {
+    "kind": "C",
+    "labels": [
+      "prop:fisher_excess"
+    ]
+  },
+  "FoliationQM.FisherSuperadditivity": {
+    "kind": "C",
+    "labels": [
+      "prop:fisher_excess"
+    ]
+  },
+  "FoliationQM.GaussianMarginalDefect": {
+    "kind": "C",
+    "labels": [
+      "prop:fisher_excess"
+    ]
+  },
+  "FoliationQM.FisherExcessRigidity": {
+    "kind": "C",
+    "labels": [
+      "prop:fisher_excess"
+    ]
+  },
+  "FoliationQM.ConditionalDensityRigidity": {
+    "kind": "C",
+    "labels": [
+      "prop:fisher_excess"
+    ]
+  },
+  "FoliationQM.FisherEquality": {
+    "kind": "C",
+    "labels": [
+      "prop:fisher_excess"
+    ]
+  },
+  "FoliationQM.SpatialWaveFactorization": {
+    "kind": "C,D",
+    "labels": [
+      "prop:fisher_excess"
+    ]
+  },
+  "FoliationQM.PhaseOnlyEntanglement": {
+    "kind": "C,D",
+    "labels": [
+      "prop:fisher_excess"
+    ]
+  },
+  "FoliationQM.FinitePartialTrace": {
+    "kind": "C",
+    "labels": [
+      "thm:entanglement_nosignaling"
+    ]
+  },
+  "FoliationQM.FiniteMarginalBorn": {
+    "kind": "C",
+    "labels": [
+      "thm:entanglement_nosignaling"
+    ]
+  },
+  "FoliationQM.FiniteLocalObservable": {
+    "kind": "C",
+    "labels": [
+      "thm:entanglement_nosignaling"
+    ]
+  },
+  "FoliationQM.HilbertFiberObservables": {
+    "kind": "C",
+    "labels": [
+      "thm:entanglement_nosignaling"
+    ]
+  },
+  "FoliationQM.HilbertReducedKernel": {
+    "kind": "C",
+    "labels": [
+      "thm:entanglement_nosignaling"
+    ]
+  },
+  "FoliationQM.HilbertGeneratorCancellation": {
+    "kind": "C",
+    "labels": [
+      "thm:entanglement_nosignaling"
+    ]
+  },
+  "FoliationQM.HilbertMarginalHistory": {
+    "kind": "C",
+    "labels": [
+      "thm:entanglement_nosignaling"
+    ]
+  },
+  "FoliationQM.JointL2Sections": {
+    "kind": "C",
+    "labels": [
+      "thm:entanglement_nosignaling"
+    ]
+  },
+  "FoliationQM.JointL2Curry": {
+    "kind": "C",
+    "labels": [
+      "thm:entanglement_nosignaling"
+    ]
+  },
+  "FoliationQM.ScalarFiberPairing": {
+    "kind": "C",
+    "labels": [
+      "thm:entanglement_nosignaling"
+    ]
+  },
+  "FoliationQM.JointL2Marginal": {
+    "kind": "C",
+    "labels": [
+      "thm:entanglement_nosignaling"
+    ]
+  },
+  "FoliationQM.DominatedFiberDerivative": {
+    "kind": "C",
+    "labels": [
+      "thm:entanglement_nosignaling"
+    ]
+  },
+  "FoliationQM.DominatedFiberLimit": {
+    "kind": "C",
+    "labels": [
+      "thm:entanglement_nosignaling"
+    ]
+  },
+  "FoliationQM.SchwartzFiberDerivative": {
+    "kind": "C",
+    "labels": [
+      "thm:entanglement_nosignaling"
+    ]
+  },
+  "FoliationQM.FiniteSchwartzFibers": {
+    "kind": "C",
+    "labels": [
+      "thm:entanglement_nosignaling"
+    ]
+  },
+  "FoliationQM.JointL2Product": {
+    "kind": "C",
+    "labels": [
+      "thm:entanglement_nosignaling"
+    ]
+  },
+  "FoliationQM.JointL2Equivalence": {
+    "kind": "C",
+    "labels": [
+      "thm:entanglement_nosignaling"
+    ]
+  },
+  "FoliationQM.JointRemoteUnitary": {
+    "kind": "C",
+    "labels": [
+      "thm:entanglement_nosignaling"
+    ]
+  },
+  "FoliationQM.JointSubsystemUnitary": {
+    "kind": "C",
+    "labels": [
+      "thm:entanglement_nosignaling"
+    ]
+  },
+  "FoliationQM.StrongSchrodingerUniqueness": {
+    "kind": "C",
+    "labels": [
+      "thm:entanglement_nosignaling"
+    ]
+  },
+  "FoliationQM.DecoupledPropagator": {
+    "kind": "C",
+    "labels": [
+      "thm:entanglement_nosignaling"
+    ]
+  },
+  "FoliationQM.JointMarginalHistory": {
+    "kind": "C",
+    "labels": [
+      "thm:entanglement_nosignaling"
+    ]
+  },
+  "FoliationQM.ScalarMarginalNoSignaling": {
+    "kind": "C",
+    "labels": [
+      "thm:entanglement_nosignaling"
+    ]
+  },
+  "FoliationQM.TwoBodyCoordinates": {
+    "kind": "C",
+    "labels": [
+      "thm:entanglement_nosignaling"
+    ]
+  },
+  "FoliationQM.MarginalParameterIntegral": {
+    "kind": "C",
+    "labels": [
+      "thm:entanglement_nosignaling"
+    ]
+  },
+  "FoliationQM.RemoteFluxDivergence": {
+    "kind": "C",
+    "labels": [
+      "thm:entanglement_nosignaling"
+    ]
+  },
+  "FoliationQM.TwoBodyMarginalContinuity": {
+    "kind": "C",
+    "labels": [
+      "thm:entanglement_nosignaling"
+    ]
+  },
+  "FoliationQM.TwoBodyPolarWave": {
+    "kind": "C",
+    "labels": [
+      "thm:entanglement_nosignaling"
+    ]
+  },
+  "FoliationQM.TwoBodyFisherAmplitude": {
+    "kind": "C",
+    "labels": [
+      "thm:entanglement_nosignaling"
+    ]
+  },
+  "FoliationQM.TwoBodyActionDensity": {
+    "kind": "C",
+    "labels": [
+      "thm:entanglement_nosignaling"
+    ]
+  },
+  "FoliationQM.TwoBodyActions": {
+    "kind": "C",
+    "labels": [
+      "thm:entanglement_nosignaling"
+    ]
+  },
+  "FoliationQM.TwoBodyPolarSecondJet": {
+    "kind": "C",
+    "labels": [
+      "thm:entanglement_nosignaling"
+    ]
+  },
+  "FoliationQM.TwoBodyPolarContinuity": {
+    "kind": "C",
+    "labels": [
+      "thm:entanglement_nosignaling"
+    ]
+  },
+  "FoliationQM.TwoBodySchrodingerResidual": {
+    "kind": "C",
+    "labels": [
+      "thm:entanglement_nosignaling"
+    ]
+  },
+  "FoliationQM.TwoBodyMadelung": {
+    "kind": "C",
+    "labels": [
+      "thm:entanglement_nosignaling"
+    ]
+  },
+  "FoliationQM.TwoBodyWaveContinuity": {
+    "kind": "C",
+    "labels": [
+      "thm:entanglement_nosignaling"
+    ]
+  },
+  "FoliationQM.TwoBodyBohmFactors": {
+    "kind": "C",
+    "labels": [
+      "thm:entanglement_nosignaling"
+    ]
+  },
+  "FoliationQM.TwoBodyBohmFactorization": {
+    "kind": "C",
+    "labels": [
+      "thm:entanglement_nosignaling"
+    ]
+  },
+  "FoliationQM.TwoBodyConditionalBohm": {
+    "kind": "C",
+    "labels": [
+      "thm:entanglement_nosignaling"
+    ]
+  },
+  "FoliationQM.TwoBodyBohmGreen": {
+    "kind": "C",
+    "labels": [
+      "thm:entanglement_nosignaling"
+    ]
+  },
+  "FoliationQM.TwoBodySpatialFisherBohm": {
+    "kind": "C",
+    "labels": [
+      "thm:entanglement_nosignaling"
+    ]
+  },
+  "FoliationQM.CompactParameterIntegral": {
+    "kind": "C",
+    "labels": [
+      "thm:entanglement_nosignaling"
+    ]
+  },
+  "FoliationQM.TwoBodyFisherVariation": {
+    "kind": "C",
+    "labels": [
+      "thm:entanglement_nosignaling"
+    ]
+  },
+  "FoliationQM.TwoBodyPhaseVariation": {
+    "kind": "C",
+    "labels": [
+      "thm:entanglement_nosignaling"
+    ]
+  },
+  "FoliationQM.TwoBodyDensityVariation": {
+    "kind": "C",
+    "labels": [
+      "thm:entanglement_nosignaling"
+    ]
+  },
+  "FoliationQM.TwoBodyComplexVariation": {
+    "kind": "C",
+    "labels": [
+      "thm:entanglement_nosignaling"
+    ]
+  },
+  "FoliationQM.TwoBodySourceVariations": {
+    "kind": "C",
+    "labels": [
+      "thm:entanglement_nosignaling"
+    ]
+  },
+  "FoliationQM.TwoBodyEulerLagrange": {
+    "kind": "C",
+    "labels": [
+      "thm:entanglement_nosignaling"
+    ]
+  },
+  "FoliationQM.TwoBodyKahlerStationarity": {
+    "kind": "C",
+    "labels": [
+      "thm:entanglement_nosignaling"
+    ]
+  },
+  "FoliationQM.TwoBodyDifferentialHamiltonian": {
+    "kind": "C",
+    "labels": [
+      "thm:entanglement_nosignaling"
+    ]
+  },
+  "FoliationQM.TwoBodyHamiltonianRealization": {
+    "kind": "C",
+    "labels": [
+      "thm:entanglement_nosignaling"
+    ]
+  },
+  "FoliationQM.TwoBodyRegularHistories": {
+    "kind": "C",
+    "labels": [
+      "thm:entanglement_nosignaling"
+    ]
+  },
+  "FoliationQM.TwoBodyRemoteHamiltonian": {
+    "kind": "C",
+    "labels": [
+      "thm:entanglement_nosignaling"
+    ]
+  },
+  "FoliationQM.TwoBodyUnitaryPropagator": {
+    "kind": "C",
+    "labels": [
+      "thm:entanglement_nosignaling"
+    ]
+  },
+  "FoliationQM.TwoBodyMarginalTheorem": {
+    "kind": "C",
+    "labels": [
+      "thm:entanglement_nosignaling"
+    ]
+  },
+  "FoliationQM.RNCHalfDensityJet": {
+    "kind": "C",
+    "labels": [
+      "lem:rnc_half_density"
+    ]
+  },
+  "FoliationQM.RNCLorentzContraction": {
+    "kind": "C",
+    "labels": [
+      "lem:rnc_half_density"
+    ]
+  },
+  "FoliationQM.RNCQuadraticRemainder": {
+    "kind": "C",
+    "labels": [
+      "lem:rnc_half_density"
+    ]
+  },
+  "FoliationQM.RNCExpansionContraction": {
+    "kind": "C",
+    "labels": [
+      "lem:rnc_half_density"
+    ]
+  },
+  "FoliationQM.RNCDeterminantDifferential": {
+    "kind": "C",
+    "labels": [
+      "lem:rnc_half_density"
+    ]
+  },
+  "FoliationQM.RNCCriticalComposition": {
+    "kind": "C",
+    "labels": [
+      "lem:rnc_half_density"
+    ]
+  },
+  "FoliationQM.RNCMetricNormalization": {
+    "kind": "C",
+    "labels": [
+      "lem:rnc_half_density"
+    ]
+  },
+  "FoliationQM.RNCVolumeDensity": {
+    "kind": "C",
+    "labels": [
+      "lem:rnc_half_density"
+    ]
+  },
+  "FoliationQM.RNCMetricHalfDensity": {
+    "kind": "C",
+    "labels": [
+      "lem:rnc_half_density"
+    ]
+  },
+  "FoliationQM.RNCRadialGeodesic": {
+    "kind": "C",
+    "labels": [
+      "lem:rnc_half_density"
+    ]
+  },
+  "FoliationQM.RNCRadialPolarization": {
+    "kind": "C",
+    "labels": [
+      "lem:rnc_half_density"
+    ]
+  },
+  "FoliationQM.RNCCoordinateConnection": {
+    "kind": "C",
+    "labels": [
+      "lem:rnc_half_density"
+    ]
+  },
+  "FoliationQM.RNCConnectionCyclic": {
+    "kind": "C",
+    "labels": [
+      "lem:rnc_half_density"
+    ]
+  },
+  "FoliationQM.RNCNormalChart": {
+    "kind": "C",
+    "labels": [
+      "lem:rnc_half_density"
+    ]
+  },
+  "FoliationQM.RNCCoordinateCurvature": {
+    "kind": "C",
+    "labels": [
+      "lem:rnc_half_density"
+    ]
+  },
+  "FoliationQM.RNCMetricCompatibilityDerivative": {
+    "kind": "C",
+    "labels": [
+      "lem:rnc_half_density"
+    ]
+  },
+  "FoliationQM.RNCNormalRiemann": {
+    "kind": "C",
+    "labels": [
+      "lem:rnc_half_density"
+    ]
+  },
+  "FoliationQM.RNCRicciHalfDensity": {
+    "kind": "C",
+    "labels": [
+      "lem:rnc_half_density"
+    ]
+  },
+  "FoliationQM.RNCMetricTaylor": {
+    "kind": "C",
+    "labels": [
+      "lem:rnc_half_density"
+    ]
+  },
+  "FoliationQM.RNCVolumeTaylor": {
+    "kind": "C",
+    "labels": [
+      "lem:rnc_half_density"
+    ]
+  },
+  "FoliationQM.RNCCoordinateVolumeChange": {
+    "kind": "C",
+    "labels": [
+      "lem:rnc_half_density"
+    ]
+  },
+  "FoliationQM.RNCNormalFrameCurvature": {
+    "kind": "C",
+    "labels": [
+      "lem:rnc_half_density"
+    ]
+  },
+  "FoliationQM.RNCHalfDensityProduct": {
+    "kind": "C",
+    "labels": [
+      "thm:conformal_coupling"
+    ]
+  },
+  "FoliationQM.RNCScalarWaveCenter": {
+    "kind": "C",
+    "labels": [
+      "thm:conformal_coupling"
+    ]
+  },
+  "FoliationQM.RNCDimensionCoupling": {
+    "kind": "C",
+    "labels": [
+      "thm:conformal_coupling"
+    ]
+  },
+  "FoliationQM.RNCDeWittOrdering": {
+    "kind": "C",
+    "labels": [
+      "thm:conformal_coupling"
+    ]
+  },
+  "FoliationQM.CurvedMetricDerivatives": {
+    "kind": "C",
+    "labels": [
+      "thm:conformal_coupling",
+      "eq:master_variational_equivalence"
+    ]
+  },
+  "FoliationQM.CurvedContractedConnection": {
+    "kind": "C",
+    "labels": [
+      "thm:conformal_coupling",
+      "eq:master_variational_equivalence"
+    ]
+  },
+  "FoliationQM.CurvedWaveDivergence": {
+    "kind": "C",
+    "labels": [
+      "thm:conformal_coupling",
+      "eq:master_variational_equivalence"
+    ]
+  },
+  "FoliationQM.CurvedWaveOperator": {
+    "kind": "C",
+    "labels": [
+      "thm:conformal_coupling",
+      "eq:master_variational_equivalence"
+    ]
+  },
+  "FoliationQM.CurvedGradientCovariance": {
+    "kind": "C",
+    "labels": [
+      "thm:conformal_coupling",
+      "eq:master_variational_equivalence"
+    ]
+  },
+  "FoliationQM.CurvedFluxRegularity": {
+    "kind": "C",
+    "labels": [
+      "thm:conformal_coupling",
+      "eq:master_variational_equivalence"
+    ]
+  },
+  "FoliationQM.CurvedFluxGreen": {
+    "kind": "C",
+    "labels": [
+      "thm:conformal_coupling",
+      "eq:master_variational_equivalence"
+    ]
+  },
+  "FoliationQM.CurvedGreenBoundary": {
+    "kind": "C",
+    "labels": [
+      "thm:conformal_coupling",
+      "eq:master_variational_equivalence"
+    ]
+  },
+  "FoliationQM.CurvedWeakEquation": {
+    "kind": "C",
+    "labels": [
+      "thm:conformal_coupling",
+      "eq:master_variational_equivalence"
+    ]
+  },
+  "FoliationQM.CurvedIntegratedOrdering": {
+    "kind": "C",
+    "labels": [
+      "thm:conformal_coupling",
+      "eq:master_variational_equivalence"
+    ]
+  },
+  "FoliationQM.CurvedPolarKinetic": {
+    "kind": "C",
+    "labels": [
+      "thm:conformal_coupling",
+      "eq:master_variational_equivalence"
+    ]
+  },
+  "FoliationQM.CurvedKineticCovariance": {
+    "kind": "C",
+    "labels": [
+      "thm:conformal_coupling",
+      "eq:master_variational_equivalence"
+    ]
+  },
+  "FoliationQM.CurvedPolarBranches": {
+    "kind": "C",
+    "labels": [
+      "thm:conformal_coupling",
+      "eq:master_variational_equivalence"
+    ]
+  },
+  "FoliationQM.CurvedPolarAction": {
+    "kind": "C",
+    "labels": [
+      "thm:conformal_coupling",
+      "eq:master_variational_equivalence"
+    ]
+  },
+  "FoliationQM.CurvedKGFirstVariation": {
+    "kind": "C",
+    "labels": [
+      "thm:conformal_coupling",
+      "eq:master_variational_equivalence"
+    ]
+  },
+  "FoliationQM.CurvedKGTestResidual": {
+    "kind": "C",
+    "labels": [
+      "thm:conformal_coupling",
+      "eq:master_variational_equivalence"
+    ]
+  },
+  "FoliationQM.CurvedKGRelativeVariation": {
+    "kind": "C",
+    "labels": [
+      "thm:conformal_coupling",
+      "eq:master_variational_equivalence"
+    ]
+  },
+  "FoliationQM.CurvedKGEulerLagrange": {
+    "kind": "C",
+    "labels": [
+      "thm:conformal_coupling",
+      "eq:master_variational_equivalence"
+    ]
+  },
+  "FoliationQM.CurvedKGIndependentFields": {
+    "kind": "C",
+    "labels": [
+      "thm:conformal_coupling",
+      "eq:master_variational_equivalence"
+    ]
+  },
+  "FoliationQM.CurvedChartTestTransport": {
+    "kind": "C",
+    "labels": [
+      "thm:conformal_coupling",
+      "eq:master_variational_equivalence"
+    ]
+  },
+  "FoliationQM.CurvedClockNormalization": {
+    "kind": "C",
+    "labels": [
+      "eq:master_variational_equivalence",
+      "thm:conformal_coupling"
+    ]
+  },
+  "FoliationQM.CurvedNormalizedOperator": {
+    "kind": "C",
+    "labels": [
+      "eq:master_variational_equivalence",
+      "thm:conformal_coupling"
+    ]
+  },
+  "FoliationQM.CurvedMasterEquivalence": {
+    "kind": "C",
+    "labels": [
+      "eq:master_variational_equivalence",
+      "thm:conformal_coupling"
+    ]
+  },
+  "FoliationQM.CurvedAtlasMeasure": {
+    "kind": "C",
+    "labels": [
+      "eq:master_variational_equivalence",
+      "thm:conformal_coupling"
+    ]
+  },
+  "FoliationQM.CurvedMetricChartMeasure": {
+    "kind": "C",
+    "labels": [
+      "eq:master_variational_equivalence",
+      "thm:conformal_coupling"
+    ]
+  },
+  "FoliationQM.CurvedScalarAtlasOverlap": {
+    "kind": "C",
+    "labels": [
+      "eq:master_variational_equivalence",
+      "thm:conformal_coupling"
+    ]
+  },
+  "FoliationQM.CurvedHessianOverlap": {
+    "kind": "C",
+    "labels": [
+      "eq:master_variational_equivalence",
+      "thm:conformal_coupling"
+    ]
+  },
+  "FoliationQM.CurvedConnectionComponents": {
+    "kind": "C",
+    "labels": [
+      "eq:master_variational_equivalence",
+      "thm:conformal_coupling"
+    ]
+  },
+  "FoliationQM.CurvedChartTestPartition": {
+    "kind": "C",
+    "labels": [
+      "eq:master_variational_equivalence",
+      "thm:conformal_coupling"
+    ]
+  },
+  "FoliationQM.CurvedWaveOverlap": {
+    "kind": "C",
+    "labels": [
+      "eq:master_variational_equivalence",
+      "thm:conformal_coupling"
+    ]
+  },
+  "FoliationQM.CurvedRiemannOverlap": {
+    "kind": "C",
+    "labels": [
+      "eq:master_variational_equivalence",
+      "thm:conformal_coupling"
+    ]
+  },
+  "FoliationQM.CurvedRicciOverlap": {
+    "kind": "C",
+    "labels": [
+      "eq:master_variational_equivalence",
+      "thm:conformal_coupling"
+    ]
+  },
+  "FoliationQM.CurvedAtlasDescent": {
+    "kind": "C",
+    "labels": [
+      "eq:master_variational_equivalence",
+      "thm:conformal_coupling"
+    ]
+  },
+  "FoliationQM.CurvedAtlasAction": {
+    "kind": "C",
+    "labels": [
+      "eq:master_variational_equivalence",
+      "thm:conformal_coupling"
+    ]
+  },
+  "FoliationQM.CurvedAtlasIndependence": {
+    "kind": "C",
+    "labels": [
+      "eq:master_variational_equivalence",
+      "thm:conformal_coupling"
+    ]
+  },
+  "FoliationQM.CurvedChartIntegration": {
+    "kind": "C",
+    "labels": [
+      "eq:master_variational_equivalence",
+      "thm:conformal_coupling"
+    ]
+  },
+  "FoliationQM.CurvedGlobalMaster": {
+    "kind": "C",
+    "labels": [
+      "eq:master_variational_equivalence",
+      "thm:conformal_coupling"
+    ]
+  },
+  "FoliationQM.CurvedAtlasPolarInverse": {
+    "kind": "C",
+    "labels": [
+      "eq:master_variational_equivalence",
+      "thm:conformal_coupling"
+    ]
+  },
+  "FoliationQM.CurvedMasterIndependence": {
+    "kind": "C",
+    "labels": [
+      "eq:master_variational_equivalence",
+      "thm:conformal_coupling"
+    ]
+  },
+  "FoliationQM.CurvedAtlasTests": {
+    "kind": "C",
+    "labels": [
+      "eq:master_variational_equivalence",
+      "thm:conformal_coupling"
+    ]
+  },
+  "FoliationQM.CurvedAtlasVariation": {
+    "kind": "C",
+    "labels": [
+      "eq:master_variational_equivalence",
+      "thm:conformal_coupling"
+    ]
+  },
+  "FoliationQM.CurvedAtlasCompactPartition": {
+    "kind": "C",
+    "labels": [
+      "thm:conformal_coupling"
+    ]
+  },
+  "FoliationQM.CurvedAtlasCross": {
+    "kind": "C",
+    "labels": [
+      "thm:conformal_coupling"
+    ]
+  },
+  "FoliationQM.CurvedAtlasCompactIntegrability": {
+    "kind": "C",
+    "labels": [
+      "thm:conformal_coupling"
+    ]
+  },
+  "FoliationQM.CurvedAtlasResidualPair": {
+    "kind": "C",
+    "labels": [
+      "thm:conformal_coupling"
+    ]
+  },
+  "FoliationQM.CurvedAtlasGlobalGreen": {
+    "kind": "C",
+    "labels": [
+      "thm:conformal_coupling"
+    ]
+  },
+  "FoliationQM.CurvedAtlasFullVariation": {
+    "kind": "C",
+    "labels": [
+      "thm:conformal_coupling"
+    ]
+  },
+  "FoliationQM.CurvedAtlasIndependentVariation": {
+    "kind": "C",
+    "labels": [
+      "thm:conformal_coupling"
+    ]
+  },
+  "FoliationQM.CurvedPolarWave": {
+    "kind": "C",
+    "labels": [
+      "prop:quantum_force_identity"
+    ]
+  },
+  "FoliationQM.CurvedPolarCurrent": {
+    "kind": "C",
+    "labels": [
+      "prop:quantum_force_identity"
+    ]
+  },
+  "FoliationQM.CurvedPolarKG": {
+    "kind": "C",
+    "labels": [
+      "prop:quantum_force_identity"
+    ]
+  },
+  "FoliationQM.CurvedScalarGradient": {
+    "kind": "C",
+    "labels": [
+      "prop:quantum_force_identity"
+    ]
+  },
+  "FoliationQM.CurvedCovariantDerivative": {
+    "kind": "C",
+    "labels": [
+      "prop:quantum_force_identity"
+    ]
+  },
+  "FoliationQM.CurvedGradientHessian": {
+    "kind": "C",
+    "labels": [
+      "prop:quantum_force_identity"
+    ]
+  },
+  "FoliationQM.CurvedMassDefectRegularity": {
+    "kind": "C",
+    "labels": [
+      "prop:quantum_force_identity"
+    ]
+  },
+  "FoliationQM.CurvedQuantumVelocity": {
+    "kind": "C",
+    "labels": [
+      "prop:quantum_force_identity"
+    ]
+  },
+  "FoliationQM.CurvedQuantumForce": {
+    "kind": "C",
+    "labels": [
+      "prop:quantum_force_identity"
+    ]
+  },
+  "FoliationQM.CurvedPositiveNormalization": {
+    "kind": "C",
+    "labels": [
+      "prop:quantum_force_identity",
+      "eq:normalized_quantum_force"
+    ]
+  },
+  "FoliationQM.CurvedLogGradientProjection": {
+    "kind": "C",
+    "labels": [
+      "prop:quantum_force_identity",
+      "eq:normalized_quantum_force"
+    ]
+  },
+  "FoliationQM.CurvedNormalizedQuantumForce": {
+    "kind": "C",
+    "labels": [
+      "prop:quantum_force_identity",
+      "eq:normalized_quantum_force"
+    ]
+  },
+  "FoliationQM.CurvedGradientTransport": {
+    "kind": "C",
+    "labels": [
+      "prop:quantum_force_identity",
+      "eq:normalized_quantum_force"
+    ]
+  },
+  "FoliationQM.CurvedVectorTransport": {
+    "kind": "C",
+    "labels": [
+      "prop:quantum_force_identity",
+      "eq:normalized_quantum_force"
+    ]
+  },
+  "FoliationQM.CurvedDefectTransport": {
+    "kind": "C",
+    "labels": [
+      "prop:quantum_force_identity",
+      "eq:normalized_quantum_force"
+    ]
+  },
+  "FoliationQM.CurvedQuantumBranches": {
+    "kind": "C",
+    "labels": [
+      "prop:quantum_force_identity",
+      "eq:normalized_quantum_force"
+    ]
+  },
+  "FoliationQM.CurvedQuantumTransport": {
+    "kind": "C",
+    "labels": [
+      "prop:quantum_force_identity",
+      "eq:normalized_quantum_force"
+    ]
+  },
+  "FoliationQM.CurvedCoordinateTime": {
+    "kind": "C",
+    "labels": [
+      "eq:q_w1_infinity_sufficient"
+    ]
+  },
+  "FoliationQM.CurvedCoordinateVelocity": {
+    "kind": "C",
+    "labels": [
+      "eq:q_w1_infinity_sufficient"
+    ]
+  },
+  "FoliationQM.CurvedCoordinateDynamics": {
+    "kind": "C",
+    "labels": [
+      "eq:q_w1_infinity_sufficient"
+    ]
+  },
+  "FoliationQM.CurvedCoordinateTrajectories": {
+    "kind": "C",
+    "labels": [
+      "eq:q_w1_infinity_sufficient"
+    ]
+  },
+  "FoliationQM.CurvedForceProjection": {
+    "kind": "C",
+    "labels": [
+      "eq:q_w1_infinity_sufficient"
+    ]
+  },
+  "FoliationQM.CurvedCoordinateQuantumForce": {
+    "kind": "C",
+    "labels": [
+      "eq:q_w1_infinity_sufficient"
+    ]
+  },
+  "FoliationQM.CurvedQuantumTrajectories": {
+    "kind": "C",
+    "labels": [
+      "eq:q_w1_infinity_sufficient"
+    ]
+  },
+  "FoliationQM.CurvedAuxiliaryNorm": {
+    "kind": "C",
+    "labels": [
+      "eq:q_w1_infinity_sufficient"
+    ]
+  },
+  "FoliationQM.CurvedUniformForceBound": {
+    "kind": "C",
+    "labels": [
+      "eq:q_w1_infinity_sufficient"
+    ]
+  },
+  "FoliationQM.CurvedForceRegularity": {
+    "kind": "C",
+    "labels": [
+      "eq:q_w1_infinity_sufficient"
+    ]
+  },
+  "FoliationQM.CurvedQuantumForceBound": {
+    "kind": "C",
+    "labels": [
+      "eq:q_w1_infinity_sufficient"
+    ]
+  },
+  "FoliationQM.CurvedDefectSupremum": {
+    "kind": "C",
+    "labels": [
+      "eq:q_w1_infinity_sufficient"
+    ]
+  },
+  "FoliationQM.CurvedCompactDefectSup": {
+    "kind": "C",
+    "labels": [
+      "eq:q_w1_infinity_sufficient"
+    ]
+  },
+  "FoliationQM.CurvedIntegratedForceEnvelope": {
+    "kind": "C",
+    "labels": [
+      "eq:q_w1_infinity_sufficient"
+    ]
+  },
+  "FoliationQM.CurvedQuantumForceCriterion": {
+    "kind": "C",
+    "labels": [
+      "eq:q_w1_infinity_sufficient"
+    ]
+  },
+  "FoliationQM.CurvedSmallDefectCriterion": {
+    "kind": "C",
+    "labels": [
+      "eq:q_w1_infinity_sufficient"
+    ]
+  },
+  "FoliationQM.WeightedPhaseError": {
+    "kind": "C",
+    "labels": [
+      "cor:macroscopic_geodesics",
+      "eq:wasserstein_concentration_bound"
+    ]
+  },
+  "FoliationQM.IntegralForceGronwall": {
+    "kind": "C",
+    "labels": [
+      "cor:macroscopic_geodesics",
+      "eq:wasserstein_concentration_bound"
+    ]
+  },
+  "FoliationQM.IntegralTrajectoryBound": {
+    "kind": "C",
+    "labels": [
+      "cor:macroscopic_geodesics",
+      "eq:wasserstein_concentration_bound"
+    ]
+  },
+  "FoliationQM.PhaseTrajectoryEstimate": {
+    "kind": "C",
+    "labels": [
+      "cor:macroscopic_geodesics",
+      "eq:wasserstein_concentration_bound"
+    ]
+  },
+  "FoliationQM.CurvedEuclideanTrajectories": {
+    "kind": "C",
+    "labels": [
+      "cor:macroscopic_geodesics",
+      "eq:wasserstein_concentration_bound"
+    ]
+  },
+  "FoliationQM.CurvedPhaseTrajectoryBound": {
+    "kind": "C",
+    "labels": [
+      "cor:macroscopic_geodesics",
+      "eq:wasserstein_concentration_bound"
+    ]
+  },
+  "FoliationQM.ProbabilityTransportMoment": {
+    "kind": "C",
+    "labels": [
+      "cor:macroscopic_geodesics",
+      "eq:wasserstein_concentration_bound"
+    ]
+  },
+  "FoliationQM.ProbabilityTrajectoryEstimate": {
+    "kind": "C",
+    "labels": [
+      "cor:macroscopic_geodesics",
+      "eq:wasserstein_concentration_bound"
+    ]
+  },
+  "FoliationQM.CurvedProbabilityTrajectoryEstimate": {
+    "kind": "C",
+    "labels": [
+      "cor:macroscopic_geodesics",
+      "eq:wasserstein_concentration_bound"
+    ]
+  },
+  "FoliationQM.WassersteinCoupling": {
+    "kind": "C",
+    "labels": [
+      "cor:macroscopic_geodesics",
+      "eq:wasserstein_concentration_bound"
+    ]
+  },
+  "FoliationQM.WassersteinDirac": {
+    "kind": "C",
+    "labels": [
+      "cor:macroscopic_geodesics",
+      "eq:wasserstein_concentration_bound"
+    ]
+  },
+  "FoliationQM.WassersteinFiniteMoment": {
+    "kind": "C",
+    "labels": [
+      "cor:macroscopic_geodesics",
+      "eq:wasserstein_concentration_bound"
+    ]
+  },
+  "FoliationQM.UniformTransportConcentration": {
+    "kind": "C",
+    "labels": [
+      "cor:macroscopic_geodesics",
+      "eq:wasserstein_concentration_bound"
+    ]
+  },
+  "FoliationQM.WassersteinTrajectoryEstimate": {
+    "kind": "C",
+    "labels": [
+      "cor:macroscopic_geodesics",
+      "eq:wasserstein_concentration_bound"
+    ]
+  },
+  "FoliationQM.CurvedWassersteinTrajectoryEstimate": {
+    "kind": "C",
+    "labels": [
+      "cor:macroscopic_geodesics",
+      "eq:wasserstein_concentration_bound"
+    ]
+  },
+  "FoliationQM.UniformWeakConcentration": {
+    "kind": "C",
+    "labels": [
+      "eq:wasserstein_concentration_bound",
+      "cor:macroscopic_geodesics"
+    ]
+  },
+  "FoliationQM.WassersteinMappedCoupling": {
+    "kind": "C",
+    "labels": [
+      "eq:wasserstein_concentration_bound",
+      "cor:macroscopic_geodesics"
+    ]
+  },
+  "FoliationQM.WassersteinMetricTransfer": {
+    "kind": "C",
+    "labels": [
+      "eq:wasserstein_concentration_bound",
+      "cor:macroscopic_geodesics"
+    ]
+  },
+  "FoliationQM.CurvedWeakConcentration": {
+    "kind": "C",
+    "labels": [
+      "eq:wasserstein_concentration_bound",
+      "cor:macroscopic_geodesics"
+    ]
+  },
+  "FoliationQM.CurvedCoordinateCurrent": {
+    "kind": "C",
+    "labels": [
+      "cor:macroscopic_geodesics"
+    ]
+  },
+  "FoliationQM.SpacelikeSliceGeometry": {
+    "kind": "C",
+    "labels": [
+      "cor:macroscopic_geodesics"
+    ]
+  },
+  "FoliationQM.GeometricCurrentFlux": {
+    "kind": "C",
+    "labels": [
+      "cor:macroscopic_geodesics"
+    ]
+  },
+  "FoliationQM.SpatialFlowDifferential": {
+    "kind": "C",
+    "labels": [
+      "cor:macroscopic_geodesics"
+    ]
+  },
+  "FoliationQM.SpatialFlowJacobian": {
+    "kind": "C",
+    "labels": [
+      "cor:macroscopic_geodesics"
+    ]
+  },
+  "FoliationQM.FlowDensityConservation": {
+    "kind": "C",
+    "labels": [
+      "cor:macroscopic_geodesics"
+    ]
+  },
+  "FoliationQM.CurvedFlowDensityConservation": {
+    "kind": "C",
+    "labels": [
+      "cor:macroscopic_geodesics"
+    ]
+  },
+  "FoliationQM.WeightedJacobianPushforward": {
+    "kind": "C",
+    "labels": [
+      "cor:macroscopic_geodesics"
+    ]
+  },
+  "FoliationQM.WeightedProbabilityTransport": {
+    "kind": "C",
+    "labels": [
+      "cor:macroscopic_geodesics"
+    ]
+  },
+  "FoliationQM.EuclideanDensityTransport": {
+    "kind": "C",
+    "labels": [
+      "cor:macroscopic_geodesics"
+    ]
+  },
+  "FoliationQM.CurvedCurrentTransport": {
+    "kind": "C",
+    "labels": [
+      "cor:macroscopic_geodesics"
+    ]
+  },
+  "FoliationQM.CurvedCurrentTrajectories": {
+    "kind": "C",
+    "labels": [
+      "cor:macroscopic_geodesics"
+    ]
+  },
+  "FoliationQM.CurvedCurrentConcentration": {
+    "kind": "C",
+    "labels": [
+      "cor:macroscopic_geodesics"
+    ]
+  },
+  "FoliationQM.CurvedCurrentWeakConcentration": {
+    "kind": "C",
+    "labels": [
+      "cor:macroscopic_geodesics"
+    ]
+  },
+  "FoliationQM.CurvedCurrentGradientConcentration": {
+    "kind": "C",
+    "labels": [
+      "cor:macroscopic_geodesics"
+    ]
+  },
+  "FoliationQM.InitialVelocityMoment": {
+    "kind": "C",
+    "labels": [
+      "rem:wkb_rates_tails"
+    ]
+  },
+  "FoliationQM.CurvedCurrentInitialVelocity": {
+    "kind": "C",
+    "labels": [
+      "rem:wkb_rates_tails"
+    ]
+  },
+  "FoliationQM.TransportTailBound": {
+    "kind": "C",
+    "labels": [
+      "rem:wkb_rates_tails"
+    ]
+  },
+  "FoliationQM.CurvedCurrentWidthRate": {
+    "kind": "C",
+    "labels": [
+      "rem:wkb_rates_tails"
+    ]
+  },
+  "FoliationQM.MappedTubeSupport": {
+    "kind": "C",
+    "labels": [
+      "rem:wkb_rates_tails"
+    ]
+  },
+  "FoliationQM.CurvedCurrentTubeSupport": {
+    "kind": "C",
+    "labels": [
+      "rem:wkb_rates_tails"
+    ]
+  },
+  "FoliationQM.ConcentrationCounterexamples": {
+    "kind": "C",
+    "labels": [
+      "rem:wkb_rates_tails"
+    ]
+  },
+  "FoliationQM.GoodBadTransport": {
+    "kind": "C",
+    "labels": [
+      "rem:wkb_rates_tails"
+    ]
+  },
+  "FoliationQM.GoodBadWeakConcentration": {
+    "kind": "C",
+    "labels": [
+      "rem:wkb_rates_tails"
+    ]
+  },
+  "FoliationQM.GoodBadWasserstein": {
+    "kind": "C",
+    "labels": [
+      "rem:wkb_rates_tails"
+    ]
+  },
+  "FoliationQM.EscapingTailCounterexample": {
+    "kind": "C",
+    "labels": [
+      "rem:wkb_rates_tails"
+    ]
+  },
+  "FoliationQM.RestrictedTrajectoryMoment": {
+    "kind": "C",
+    "labels": [
+      "rem:wkb_rates_tails",
+      "eq:wasserstein_concentration_bound"
+    ]
+  },
+  "FoliationQM.CurvedCurrentTailConcentration": {
+    "kind": "C",
+    "labels": [
+      "rem:wkb_rates_tails",
+      "eq:wasserstein_concentration_bound"
+    ]
+  },
+  "FoliationQM.ClockLatticeScaleLimits": {
+    "kind": "C",
+    "labels": [
+      "rem:wkb_rates_tails"
+    ]
+  },
+  "FoliationQM.GaussianPacketSupport": {
+    "kind": "C",
+    "labels": [
+      "rem:wkb_rates_tails"
+    ]
+  },
+  "FoliationQM.RealL2Pairing": {
+    "kind": "C",
+    "labels": [
+      "eq:cramer_rao",
+      "thm:uncertainty"
+    ]
+  },
+  "FoliationQM.CenteredL2Variance": {
+    "kind": "C",
+    "labels": [
+      "eq:p_var_decomp",
+      "thm:uncertainty"
+    ]
+  },
+  "FoliationQM.OsmoticScoreVariance": {
+    "kind": "C",
+    "labels": [
+      "eq:p_var_decomp",
+      "thm:uncertainty"
+    ]
+  },
+  "FoliationQM.ScoreCramerRao": {
+    "kind": "C",
+    "labels": [
+      "eq:cramer_rao",
+      "thm:uncertainty"
+    ]
+  },
+  "FoliationQM.GaussianDensityScore": {
+    "kind": "C",
+    "labels": [
+      "eq:cramer_rao",
+      "thm:uncertainty"
+    ]
+  },
+  "FoliationQM.GaussianScoreMoments": {
+    "kind": "C",
+    "labels": [
+      "eq:cramer_rao",
+      "eq:p_var_decomp",
+      "thm:uncertainty"
+    ]
+  },
+  "FoliationQM.GaussianPlanePhaseWave": {
+    "kind": "C",
+    "labels": [
+      "eq:p_var_decomp",
+      "thm:uncertainty"
+    ]
+  },
+  "FoliationQM.CompactTestPrimitive": {
+    "kind": "C",
+    "labels": [
+      "eq:cramer_rao",
+      "thm:uncertainty"
+    ]
+  },
+  "FoliationQM.WeakDerivativeConstancy": {
+    "kind": "C",
+    "labels": [
+      "eq:cramer_rao",
+      "thm:uncertainty"
+    ]
+  },
+  "FoliationQM.SobolevWeakDerivative": {
+    "kind": "C,D",
+    "labels": [
+      "thm:uncertainty",
+      "eq:cramer_rao",
+      "eq:p_var_decomp"
+    ]
+  },
+  "FoliationQM.ComplexIntervalPrimitive": {
+    "kind": "C",
+    "labels": [
+      "eq:cramer_rao",
+      "thm:uncertainty"
+    ]
+  },
+  "FoliationQM.WeakDerivativeRepresentative": {
+    "kind": "C,D",
+    "labels": [
+      "eq:cramer_rao",
+      "thm:uncertainty",
+      "eq:p_var_decomp"
+    ]
+  },
+  "FoliationQM.SobolevACRepresentative": {
+    "kind": "C,D",
+    "labels": [
+      "thm:uncertainty",
+      "eq:cramer_rao",
+      "eq:p_var_decomp"
+    ]
+  },
+  "FoliationQM.AENodalDerivative": {
+    "kind": "C,D",
+    "labels": [
+      "thm:uncertainty",
+      "eq:cramer_rao",
+      "eq:p_var_decomp"
+    ]
+  },
+  "FoliationQM.WaveScoreAlgebra": {
+    "kind": "A,C",
+    "labels": [
+      "thm:uncertainty",
+      "eq:cramer_rao",
+      "eq:p_var_decomp"
+    ]
+  },
+  "FoliationQM.SobolevDensity": {
+    "kind": "C,D",
+    "labels": [
+      "thm:uncertainty",
+      "eq:cramer_rao",
+      "eq:p_var_decomp"
+    ]
+  },
+  "FoliationQM.WaveDensityMeasure": {
+    "kind": "C,D",
+    "labels": [
+      "thm:uncertainty",
+      "eq:cramer_rao",
+      "eq:p_var_decomp"
+    ]
+  },
+  "FoliationQM.FullLineACIntegral": {
+    "kind": "C,D",
+    "labels": [
+      "thm:uncertainty",
+      "eq:cramer_rao",
+      "eq:p_var_decomp"
+    ]
+  },
+  "FoliationQM.WaveScoreIntegrationByParts": {
+    "kind": "C,D",
+    "labels": [
+      "thm:uncertainty",
+      "eq:cramer_rao",
+      "eq:p_var_decomp"
+    ]
+  },
+  "FoliationQM.SobolevCramerRao": {
+    "kind": "C,D",
+    "labels": [
+      "eq:cramer_rao",
+      "thm:uncertainty"
+    ]
+  },
+  "FoliationQM.QuantumCurrentAlgebra": {
+    "kind": "C,D",
+    "labels": [
+      "eq:p_var_decomp",
+      "eq:p_fisher_bound",
+      "thm:uncertainty"
+    ]
+  },
+  "FoliationQM.WaveMomentumQuadraticForm": {
+    "kind": "C,D",
+    "labels": [
+      "eq:p_var_decomp",
+      "eq:p_fisher_bound",
+      "thm:uncertainty"
+    ]
+  },
+  "FoliationQM.SobolevMomentumVariance": {
+    "kind": "C,D",
+    "labels": [
+      "eq:p_fisher_bound",
+      "eq:p_var_decomp",
+      "thm:uncertainty"
+    ]
+  },
+  "FoliationQM.ActualHeisenbergDefect": {
+    "kind": "C,D",
+    "labels": [
+      "eq:heisenberg",
+      "thm:uncertainty"
+    ]
+  },
+  "FoliationQM.WaveHeisenberg": {
+    "kind": "C,D",
+    "labels": [
+      "eq:heisenberg",
+      "thm:uncertainty"
+    ]
+  },
+  "FoliationQM.SobolevHeisenberg": {
+    "kind": "C,D",
+    "labels": [
+      "eq:heisenberg",
+      "thm:uncertainty"
+    ]
+  },
+  "FoliationQM.LocalPolarPhase": {
+    "kind": "C,D",
+    "labels": [
+      "eq:p_var_decomp",
+      "thm:uncertainty"
+    ]
+  },
+  "FoliationQM.SuppliedPolarPhase": {
+    "kind": "C,D",
+    "labels": [
+      "eq:p_var_decomp",
+      "thm:uncertainty"
+    ]
+  },
+  "FoliationQM.SobolevPhaseVariance": {
+    "kind": "C,D",
+    "labels": [
+      "eq:p_var_decomp",
+      "thm:uncertainty"
+    ]
+  },
+  "FoliationQM.GaussianWaveRigidity": {
+    "kind": "C,D",
+    "labels": [
+      "thm:uncertainty",
+      "eq:heisenberg"
+    ]
+  },
+  "FoliationQM.GaussianDensitySaturation": {
+    "kind": "C,D",
+    "labels": [
+      "thm:uncertainty",
+      "eq:heisenberg"
+    ]
+  },
+  "FoliationQM.WaveGaussianEquality": {
+    "kind": "C,D",
+    "labels": [
+      "thm:uncertainty",
+      "eq:heisenberg"
+    ]
+  },
+  "FoliationQM.SobolevGaussianEquality": {
+    "kind": "C,D",
+    "labels": [
+      "thm:uncertainty",
+      "eq:heisenberg"
+    ]
+  },
+  "FoliationQM.BesselFirstOrderIdentity": {
+    "kind": "C,D",
+    "labels": [
+      "thm:uncertainty",
+      "eq:heisenberg"
+    ]
+  },
+  "FoliationQM.FirstOrderSobolevConverse": {
+    "kind": "C,D",
+    "labels": [
+      "thm:uncertainty",
+      "eq:heisenberg"
+    ]
+  },
+  "FoliationQM.GaussianDistributionalDerivative": {
+    "kind": "C,D",
+    "labels": [
+      "thm:uncertainty",
+      "eq:heisenberg"
+    ]
+  },
+  "FoliationQM.GaussianSobolevWitness": {
+    "kind": "C,D",
+    "labels": [
+      "thm:uncertainty",
+      "eq:heisenberg"
+    ]
+  },
+  "FoliationQM.GaussianQuantumMoments": {
+    "kind": "C,D",
+    "labels": [
+      "thm:uncertainty",
+      "eq:heisenberg"
+    ]
+  },
+  "FoliationQM.GaussianUncertaintyRealization": {
+    "kind": "C,D",
+    "labels": [
+      "thm:uncertainty",
+      "eq:heisenberg"
+    ]
+  },
+  "FoliationQM.RestPhaseDerivatives": {
+    "kind": "C,D",
+    "labels": [
+      "cor:schrodinger"
+    ]
+  },
+  "FoliationQM.LaboratoryTimeDerivatives": {
+    "kind": "C,D",
+    "labels": [
+      "cor:schrodinger"
+    ]
+  },
+  "FoliationQM.LaboratoryCoordinates": {
+    "kind": "C,D",
+    "labels": [
+      "cor:schrodinger"
+    ]
+  },
+  "FoliationQM.LaboratoryKG": {
+    "kind": "C,D",
+    "labels": [
+      "cor:schrodinger"
+    ]
+  },
+  "FoliationQM.RestEnvelopeDifferential": {
+    "kind": "C,D",
+    "labels": [
+      "cor:schrodinger"
+    ]
+  },
+  "FoliationQM.RestEnvelopeKG": {
+    "kind": "C,D",
+    "labels": [
+      "cor:schrodinger"
+    ]
+  },
+  "FoliationQM.RestEnvelopeRemainder": {
+    "kind": "C,D",
+    "labels": [
+      "cor:schrodinger"
+    ]
+  },
+  "FoliationQM.RestEnvelopeRemainderIntegral": {
+    "kind": "C,D",
+    "labels": [
+      "cor:schrodinger"
+    ]
+  },
+  "FoliationQM.ControlledRestEnvelopeLimit": {
+    "kind": "C,D",
+    "labels": [
+      "cor:schrodinger"
+    ]
+  },
+  "FoliationQM.RestActionPhase": {
+    "kind": "A,C,D",
+    "labels": [
+      "cor:schrodinger"
+    ]
+  },
+  "FoliationQM.KleinGordonSchrodingerLimit": {
+    "kind": "C,D",
+    "labels": [
+      "cor:schrodinger"
+    ]
+  },
+  "FoliationQM.CompactComplexGreen": {
+    "kind": "C,D",
+    "labels": [
+      "cor:schrodinger"
+    ]
+  },
+  "FoliationQM.SchrodingerGreen": {
+    "kind": "C,D",
+    "labels": [
+      "cor:schrodinger"
+    ]
+  },
+  "FoliationQM.TestedRestEnvelopeRemainder": {
+    "kind": "C,D",
+    "labels": [
+      "cor:schrodinger"
+    ]
+  },
+  "FoliationQM.WeakSchrodingerEquation": {
+    "kind": "C,D",
+    "labels": [
+      "cor:schrodinger"
+    ]
+  },
+  "FoliationQM.WeakRestEnvelopeLimit": {
+    "kind": "C,D",
+    "labels": [
+      "cor:schrodinger"
+    ]
+  },
+  "FoliationQM.KleinGordonWeakLimit": {
+    "kind": "C,D",
+    "labels": [
+      "cor:schrodinger"
+    ]
+  },
+  "FoliationQM.ReducedMassShellFrequency": {
+    "kind": "C,D",
+    "labels": [
+      "cor:schrodinger"
+    ]
+  },
+  "FoliationQM.ReducedPlaneWave": {
+    "kind": "C,D",
+    "labels": [
+      "cor:schrodinger"
+    ]
+  },
+  "FoliationQM.NonrelativisticParameterFamily": {
+    "kind": "C,D",
+    "labels": [
+      "cor:schrodinger"
+    ]
+  },
+  "FoliationQM.MixedRestMode": {
+    "kind": "C,D",
+    "labels": [
+      "cor:schrodinger"
+    ]
+  },
+  "FoliationQM.MixedRestPhase": {
+    "kind": "C,D",
+    "labels": [
+      "cor:schrodinger"
+    ]
+  },
+  "FoliationQM.MixedRestCounterexample": {
+    "kind": "C,D",
+    "labels": [
+      "cor:schrodinger"
+    ]
+  },
+  "FoliationQM.FrequencyGraphFourier": {
+    "kind": "C,D",
+    "labels": [
+      "cor:schrodinger"
+    ]
+  },
+  "FoliationQM.PolynomialSpectralMoments": {
+    "kind": "C,D",
+    "labels": [
+      "cor:schrodinger"
+    ]
+  },
+  "FoliationQM.SpectralRestEnvelope": {
+    "kind": "C,D",
+    "labels": [
+      "cor:schrodinger"
+    ]
+  },
+  "FoliationQM.ReducedPlaneWaveComparison": {
+    "kind": "C,D",
+    "labels": [
+      "cor:schrodinger"
+    ]
+  },
+  "FoliationQM.SpectralEnvelopeEstimates": {
+    "kind": "C,D",
+    "labels": [
+      "cor:schrodinger"
+    ]
+  },
+  "FoliationQM.SpectralSchrodingerLimit": {
+    "kind": "C,D",
+    "labels": [
+      "cor:schrodinger"
+    ]
+  },
+  "FoliationQM.GaussianSpectralMoments": {
+    "kind": "C,D",
+    "labels": [
+      "cor:schrodinger"
+    ]
+  },
+  "FoliationQM.GaussianSchrodingerLimit": {
+    "kind": "C,D",
+    "labels": [
+      "cor:schrodinger"
+    ]
+  },
+  "FoliationQM.RelativeStationarySchrodingerLimit": {
+    "kind": "C,D",
+    "labels": [
+      "cor:schrodinger"
+    ]
+  },
+  "FoliationQM.PolarStationarySchrodingerLimit": {
+    "kind": "C,D",
+    "labels": [
+      "cor:schrodinger"
+    ]
+  },
+  "FoliationQM.GaussianVariationalLimit": {
+    "kind": "C,D",
+    "labels": [
+      "cor:schrodinger"
+    ]
+  },
+  "FoliationQM.LogarithmicCutoffProfile": {
+    "kind": "C,D",
+    "labels": [
+      "eq:log_cutoff_wallstrom"
+    ]
+  },
+  "FoliationQM.LogarithmicCutoffEnergy": {
+    "kind": "C,D",
+    "labels": [
+      "eq:log_cutoff_l2_bound"
+    ]
+  },
+  "FoliationQM.SmoothTransitionDerivativeBound": {
+    "kind": "C,D",
+    "labels": [
+      "eq:log_cutoff_l2_bound"
+    ]
+  },
+  "FoliationQM.SmoothLogarithmicCutoffProfile": {
+    "kind": "C,D",
+    "labels": [
+      "eq:log_cutoff_wallstrom"
+    ]
+  },
+  "FoliationQM.SmoothLogarithmicCutoffEnergy": {
+    "kind": "C,D",
+    "labels": [
+      "eq:log_cutoff_l2_bound"
+    ]
+  },
+  "FoliationQM.SmoothNormalPlaneCutoff": {
+    "kind": "C,D",
+    "labels": [
+      "eq:log_cutoff_wallstrom",
+      "eq:log_cutoff_l2_bound"
+    ]
+  },
+  "FoliationQM.SmoothNormalPlaneCutoffSupport": {
+    "kind": "C,D",
+    "labels": [
+      "eq:log_cutoff_l2_bound"
+    ]
+  },
+  "FoliationQM.SmoothNormalPlaneCutoffEnergy": {
+    "kind": "C,D",
+    "labels": [
+      "eq:log_cutoff_l2_bound"
+    ]
+  },
+  "FoliationQM.SmoothNormalPlaneCutoffDeficit": {
+    "kind": "C,D",
+    "labels": [
+      "eq:log_cutoff_l2_bound"
+    ]
+  },
+  "FoliationQM.SmoothProductTubeCutoff": {
+    "kind": "C,D",
+    "labels": [
+      "eq:log_cutoff_wallstrom",
+      "eq:log_cutoff_l2_bound"
+    ]
+  },
+  "FoliationQM.SmoothProductTubeCutoffEnergy": {
+    "kind": "C,D",
+    "labels": [
+      "eq:log_cutoff_l2_bound"
+    ]
+  },
+  "FoliationQM.ProductTubeCoordinates": {
+    "kind": "C,D",
+    "labels": [
+      "eq:log_cutoff_wallstrom",
+      "eq:log_cutoff_l2_bound"
+    ]
+  },
+  "FoliationQM.SmoothCoordinateTubeCutoff": {
+    "kind": "C,D",
+    "labels": [
+      "eq:log_cutoff_wallstrom",
+      "eq:log_cutoff_l2_bound"
+    ]
+  },
+  "FoliationQM.CoordinateCutoffTests": {
+    "kind": "C,D",
+    "labels": [
+      "eq:log_cutoff_wallstrom"
+    ]
+  },
+  "FoliationQM.CoordinateCutoffCompactEnergy": {
+    "kind": "C,D",
+    "labels": [
+      "eq:log_cutoff_l2_bound"
+    ]
+  },
+  "FoliationQM.CoordinateCutoffPairing": {
+    "kind": "C,D",
+    "labels": [
+      "eq:log_cutoff_l2_bound"
+    ]
+  },
+  "FoliationQM.CoordinateCutoffTestError": {
+    "kind": "C,D",
+    "labels": [
+      "eq:log_cutoff_l2_bound"
+    ]
+  },
+  "FoliationQM.CoordinateCutoffL1Limit": {
+    "kind": "C,D",
+    "labels": [
+      "eq:log_cutoff_l2_bound"
+    ]
+  },
+  "FoliationQM.CoordinateCutoffTestLimit": {
+    "kind": "C,D",
+    "labels": [
+      "eq:log_cutoff_l2_bound"
+    ]
+  },
+  "FoliationQM.CoordinateOffAxisWeakDerivative": {
+    "kind": "C,D",
+    "labels": [
+      "eq:log_cutoff_l2_bound"
+    ]
+  },
+  "FoliationQM.CoordinateMetricFluxL2": {
+    "kind": "C,D",
+    "labels": [
+      "eq:weak_pde_cutoff_bound"
+    ]
+  },
+  "FoliationQM.CoordinateCutoffKineticError": {
+    "kind": "C,D",
+    "labels": [
+      "eq:weak_pde_cutoff_bound"
+    ]
+  },
+  "FoliationQM.CoordinateCutoffCrossLimit": {
+    "kind": "C,D",
+    "labels": [
+      "eq:weak_pde_cutoff_bound"
+    ]
+  },
+  "FoliationQM.CoordinateAxisWeakKG": {
+    "kind": "C,D",
+    "labels": [
+      "eq:weak_pde_cutoff_bound",
+      "thm:wallstrom"
+    ]
+  },
+  "FoliationQM.AuxiliaryMetricEnergy": {
+    "kind": "A",
+    "labels": [
+      "thm:wallstrom",
+      "eq:weak_pde_cutoff_bound"
+    ]
+  },
+  "FoliationQM.CirclePolarEnergy": {
+    "kind": "A,B",
+    "labels": [
+      "thm:wallstrom"
+    ]
+  },
+  "FoliationQM.CompactAuxiliaryMetricEnergy": {
+    "kind": "C",
+    "labels": [
+      "thm:wallstrom",
+      "eq:weak_pde_cutoff_bound"
+    ]
+  },
+  "FoliationQM.WeightedPolarEnergyL2": {
+    "kind": "C",
+    "labels": [
+      "thm:wallstrom"
+    ]
+  },
+  "FoliationQM.AuxiliaryCutoffEnergy": {
+    "kind": "C,D",
+    "labels": [
+      "eq:log_cutoff_l2_bound",
+      "eq:weak_pde_cutoff_bound"
+    ]
+  },
+  "FoliationQM.WeightedCutoffKineticError": {
+    "kind": "C,D",
+    "labels": [
+      "eq:weak_pde_cutoff_bound"
+    ]
+  },
+  "FoliationQM.CoordinateAxisZeroExtension": {
+    "kind": "C,D",
+    "labels": [
+      "thm:wallstrom"
+    ]
+  },
+  "FoliationQM.CoordinateAxisPolarExtension": {
+    "kind": "C,D",
+    "labels": [
+      "thm:wallstrom",
+      "eq:weak_pde_cutoff_bound"
+    ]
+  },
+  "FoliationQM.BesselLaplacianIdentity": {
+    "kind": "C,D",
+    "labels": [
+      "thm:wallstrom"
+    ]
+  },
+  "FoliationQM.FiniteBasisSobolevCriterion": {
+    "kind": "C,D",
+    "labels": [
+      "thm:wallstrom"
+    ]
+  },
+  "FoliationQM.LocalizedCoordinateSobolev": {
+    "kind": "C,D",
+    "labels": [
+      "thm:wallstrom"
+    ]
+  },
+  "FoliationQM.PolarLocalizedSobolev": {
+    "kind": "C,D",
+    "labels": [
+      "thm:wallstrom"
+    ]
+  },
+  "FoliationQM.AuxiliaryMetricPullback": {
+    "kind": "A,C",
+    "labels": [
+      "thm:wallstrom",
+      "eq:weak_pde_cutoff_bound"
+    ]
+  },
+  "FoliationQM.CoordinateCutoffPullbackEnergy": {
+    "kind": "C,D",
+    "labels": [
+      "thm:wallstrom",
+      "eq:log_cutoff_l2_bound",
+      "eq:weak_pde_cutoff_bound"
+    ]
+  },
+  "FoliationQM.CodimensionTwoCoordinates": {
+    "kind": "A",
+    "labels": [
+      "thm:wallstrom"
+    ]
+  },
+  "FoliationQM.EmbeddedNodalCoordinates": {
+    "kind": "B",
+    "labels": [
+      "thm:wallstrom"
+    ]
+  },
+  "FoliationQM.EmbeddedNodalNullity": {
+    "kind": "B",
+    "labels": [
+      "thm:wallstrom"
+    ]
+  },
+  "FoliationQM.CoordinateChartAuxiliaryMetric": {
+    "kind": "B",
+    "labels": [
+      "thm:wallstrom",
+      "eq:log_cutoff_l2_bound"
+    ]
+  },
+  "FoliationQM.AdaptedChartCutoffTests": {
+    "kind": "C,D",
+    "labels": [
+      "thm:wallstrom",
+      "eq:log_cutoff_wallstrom"
+    ]
+  },
+  "FoliationQM.AdaptedChartCutoffLimits": {
+    "kind": "C,D",
+    "labels": [
+      "thm:wallstrom",
+      "eq:log_cutoff_l2_bound"
+    ]
+  },
+  "FoliationQM.AdaptedChartWeakDerivative": {
+    "kind": "C,D",
+    "labels": [
+      "thm:wallstrom",
+      "eq:log_cutoff_l2_bound"
+    ]
+  },
+  "FoliationQM.EmbeddedNodalWeakDerivative": {
+    "kind": "C,D",
+    "labels": [
+      "thm:wallstrom",
+      "eq:log_cutoff_l2_bound"
+    ]
+  },
+  "FoliationQM.EmbeddedNodalGlobalWeakDerivative": {
+    "kind": "C,D",
+    "labels": [
+      "thm:wallstrom",
+      "eq:log_cutoff_l2_bound"
+    ]
+  },
+  "FoliationQM.TestLocalVanishing": {
+    "kind": "D",
+    "labels": [
+      "thm:wallstrom"
+    ]
+  },
+  "FoliationQM.CrossTestPairing": {
+    "kind": "C,D",
+    "labels": [
+      "thm:wallstrom",
+      "eq:weak_pde_cutoff_bound"
+    ]
+  },
+  "FoliationQM.EmbeddedNodalWeakKG": {
+    "kind": "C,D",
+    "labels": [
+      "thm:wallstrom",
+      "eq:weak_pde_cutoff_bound"
+    ]
+  },
+  "FoliationQM.NodalSmoothContinuation": {
+    "kind": "D",
+    "labels": [
+      "thm:wallstrom"
+    ]
+  },
+  "FoliationQM.EmbeddedNodalPolarExtension": {
+    "kind": "C,D",
+    "labels": [
+      "thm:wallstrom",
+      "eq:weak_pde_cutoff_bound"
+    ]
+  },
+  "FoliationQM.NodalPolarConverse": {
+    "kind": "B,C",
+    "labels": [
+      "thm:wallstrom"
+    ]
+  },
+  "FoliationQM.SagnacQuantization": {
+    "kind": "B,C",
+    "labels": [
+      "thm:wallstrom",
+      "eq:sagnac_quant"
+    ]
+  },
+  "FoliationQM.ClockPhaseUniqueness": {
+    "kind": "B,C",
+    "labels": [
+      "thm:wallstrom"
+    ]
+  },
+  "FoliationQM.DegenerateVortexSolution": {
+    "kind": "A,B",
+    "labels": [
+      "thm:wallstrom"
+    ]
+  },
+  "FoliationQM.TransverseZeroWinding": {
+    "kind": "A,C",
+    "labels": [
+      "thm:wallstrom"
+    ]
+  },
+  "FoliationQM.TidalCoefficient": {
+    "kind": "A",
+    "labels": [
+      "thm:tidal_dispersion"
+    ]
+  },
+  "FoliationQM.TidalAmplitudeVariation": {
+    "kind": "B,C",
+    "labels": [
+      "thm:tidal_dispersion",
+      "eq:tidal_KG_eq"
+    ]
+  },
+  "FoliationQM.TidalFieldEquation": {
+    "kind": "A,B,C",
+    "labels": [
+      "thm:tidal_dispersion",
+      "eq:tidal_KG_eq"
+    ]
+  },
+  "FoliationQM.TidalModulusVariation": {
+    "kind": "B,C",
+    "labels": [
+      "thm:tidal_dispersion",
+      "eq:tidal_KG_eq"
+    ]
+  },
+  "FoliationQM.NondegenerateZeroWinding": {
+    "kind": "B,C",
+    "labels": [
+      "thm:wallstrom"
+    ]
+  },
+  "FoliationQM.EmbeddedNodalSobolev": {
+    "kind": "C,D",
+    "labels": [
+      "thm:wallstrom"
+    ]
+  },
+  "FoliationQM.PolarSpinMagnetization": {
+    "kind": "A,C",
+    "labels": [
+      "rem:gordon_osmotic_bridge"
+    ]
+  },
+  "FoliationQM.SagnacPiecewiseQuantization": {
+    "kind": "B,C",
+    "labels": [
+      "thm:wallstrom",
+      "eq:sagnac_quant"
+    ]
+  },
+  "FoliationQM.RadialCoreAsymptotics": {
+    "kind": "B,C",
+    "labels": [
+      "thm:wallstrom"
+    ]
+  },
+  "FoliationQM.TidalCovariantDivergence": {
+    "kind": "A,C",
+    "labels": [
+      "thm:tidal_dispersion",
+      "eq:tidal_KG_eq"
+    ]
+  },
+  "FoliationQM.TidalEulerLagrange": {
+    "kind": "B,C,D",
+    "labels": [
+      "thm:tidal_dispersion",
+      "eq:tidal_KG_eq"
+    ]
+  },
+  "FoliationQM.PolarWaveBijection": {
+    "kind": "B,C",
+    "labels": [
+      "thm:wallstrom"
+    ]
+  },
+  "FoliationQM.RadialFiniteEnergy": {
+    "kind": "C,D",
+    "labels": [
+      "thm:wallstrom"
+    ]
+  },
+  "FoliationQM.RadialRegularBranch": {
+    "kind": "C,D",
+    "labels": [
+      "thm:wallstrom"
+    ]
+  },
+  "FoliationQM.RNCInverseMetricTaylor": {
+    "kind": "B,C",
+    "labels": [
+      "thm:tidal_dispersion"
+    ]
+  },
+  "FoliationQM.AxisymmetricReduction": {
+    "kind": "B,C",
+    "labels": [
+      "thm:wallstrom"
+    ]
+  },
+  "FoliationQM.MetricDistanceLogCutoff": {
+    "kind": "C,D",
+    "labels": [
+      "eq:log_cutoff_wallstrom",
+      "eq:log_cutoff_l2_bound"
+    ]
+  },
+  "FoliationQM.MasterEquationComposite": {
+    "kind": "B,C",
+    "labels": [
+      "sec:master_equation"
+    ]
+  },
+  "FoliationQM.LocallyFlatNodalSet": {
+    "kind": "C,D",
+    "labels": [
+      "thm:wallstrom"
+    ]
+  },
+  "FoliationQM.LocallyFlatWeakKG": {
+    "kind": "C,D",
+    "labels": [
+      "thm:wallstrom",
+      "eq:weak_pde_cutoff_bound"
+    ]
+  },
+  "FoliationQM.ManifoldNodalChart": {
+    "kind": "C,D",
+    "labels": [
+      "thm:wallstrom"
+    ]
+  },
+  "FoliationQM.MetricAtlasNodalWeakKG": {
+    "kind": "C,D",
+    "labels": [
+      "thm:wallstrom",
+      "eq:weak_pde_cutoff_bound"
+    ]
+  },
+  "FoliationQM.CurvedDensityVariation": {
+    "kind": "B,C",
+    "labels": [
+      "sec:master_equation"
+    ]
+  },
+  "FoliationQM.CurvedAtlasDensityVariation": {
+    "kind": "B,C",
+    "labels": [
+      "sec:master_equation"
+    ]
+  },
+  "FoliationQM.DyadicShellIntegral": {
+    "kind": "C",
+    "labels": [
+      "eq:log_cutoff_l2_bound"
+    ]
+  },
+  "FoliationQM.LocallyFlatTubeVolume": {
+    "kind": "B,C",
+    "labels": [
+      "thm:wallstrom",
+      "eq:log_cutoff_l2_bound"
+    ]
+  },
+  "FoliationQM.LipschitzLogCutoff": {
+    "kind": "C,D",
+    "labels": [
+      "eq:log_cutoff_l2_bound",
+      "eq:log_cutoff_wallstrom"
+    ]
+  },
+  "FoliationQM.DistanceCutoffEnergy": {
+    "kind": "C,D",
+    "labels": [
+      "eq:log_cutoff_l2_bound",
+      "thm:wallstrom"
+    ]
+  },
+  "FoliationQM.DistanceCutoffWeakError": {
+    "kind": "C,D",
+    "labels": [
+      "eq:weak_pde_cutoff_bound",
+      "thm:wallstrom"
+    ]
+  },
+  "FoliationQM.AxisDistance": {
+    "kind": "B",
+    "labels": [
+      "thm:wallstrom"
+    ]
+  },
+  "FoliationQM.CliffordSlashConnection": {
+    "kind": "C,D",
+    "labels": [
+      "rem:gordon_osmotic_bridge"
+    ]
+  },
+  "FoliationQM.PolarDiracResidual": {
+    "kind": "C,D",
+    "labels": [
+      "rem:gordon_osmotic_bridge"
+    ]
+  },
+  "FoliationQM.PolarDiracFieldEquations": {
+    "kind": "C,D",
+    "labels": [
+      "rem:gordon_osmotic_bridge"
+    ]
+  },
+  "FoliationQM.TetradDivergenceLock": {
+    "kind": "C,D",
+    "labels": [
+      "rem:gordon_osmotic_bridge"
+    ]
+  },
+  "FoliationQM.VortexCoreDistance": {
+    "kind": "C,D",
+    "labels": [
+      "thm:wallstrom"
+    ]
+  }
+}

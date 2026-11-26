@@ -1,0 +1,18 @@
+{
+  "source_targets": 69,
+  "source_targets_complete": 69,
+  "source_targets_component_only": 0,
+  "source_targets_planned": 0,
+  "handwritten_public_theorems": 9602,
+  "handwritten_private_supports": 614,
+  "audited_declarations": 20773,
+  "declaration_kinds": {
+    "definition": 3334,
+    "inductive": 85,
+    "theorem": 17184,
+    "constructor": 85,
+    "recursor": 85
+  },
+  "forbidden_axioms": [],
+  "proof_holes": 0
+}

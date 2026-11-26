@@ -1,0 +1,25 @@
+# OS / editor
+.DS_Store
+*~
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Lean / Lake
+lean/.lake/
+lean/.toolchain/
+lean/.scratch/
+lean/docs/reports/
+lean/docs/axiom-audit.json
+
+# LaTeX build artifacts
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.toc
