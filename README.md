@@ -4,6 +4,12 @@ Companion repository for ***The Quantum Mechanical Wave Function from Relativist
 
 The paper proves an exact bidirectional equivalence between incompatible relativistic spacetime foliations—a timelike congruence carrying a periodic Compton proper clock ($\ell_C = \hbar/(mc)$) projected onto an observer's equal-time slice—and linear complex wave mechanics across scalar, spinorial ($\mathrm{Spin}^+(1,3)$ Dirac), multi-particle entangled, and curved-spacetime ($\xi = 1/6$) regimes, returning quantitatively to classical Einstein geodesics in the macroscopic WKB limit.
 
+<p align="center">
+  <img src="paper/figure1_overview.png" alt="Geometric mechanism and seven-stage bidirectional equivalence relay of relativistic foliation incompatibility" width="100%">
+</p>
+
+*Figure 1: **(a)** Oblique relativistic foliation projection and Compton clock geometry; **(b)** seven-stage bidirectional equivalence relay from real cross-foliation variables $(\rho, \tau_{\mathrm{clock}})$ to linear scalar/spinorial quantum mechanics and back to classical Einstein geodesics in the macroscopic WKB limit.*
+
 ## Repository Layout
 
 | Directory | Contents |
