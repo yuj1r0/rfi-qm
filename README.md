@@ -4,6 +4,10 @@
 
 [**Paper PDF**](paper/deriving_the_quantum_mechanical_wave_function_from_relativistic_foliation_incompatibility_v18.pdf) · [**Lean 4 Formalization (`FoliationQM`)**](lean/) · [**Real-Variable Simulations**](simulations/) · [**Lean Audit Report**](lean/docs/CAMPAIGN_REPORT.md)
 
+<p align="center">
+  <img src="paper/master_equation.png" alt="Master Equivalence Equation: |d psi|^2 = (rho / l_C^2) [ c^2 (d tau_clock)^2 + (l_C^2 / 4) (d ln rho)^2 ]" width="78%">
+</p>
+
 ---
 ## Intro
 
@@ -11,7 +15,7 @@ This work demonstrates equivalence between relativistic foliation incompatibilit
 
 In the end, using substantial AI assistance for this work (mainly Gemini 4), I was able to find a clean chain one can use to walk from the relativistic side to the quantum side. The solution was basically in the end to combine two established traditions previously attempting a similar thing, which ended up being complementary missing pieces for each other: the tradition of relativistic internal clocks together with probability fluids and information theory/information-geometry approach. A cool thing is that this work also enabled a surprisingly impressive yet simple computational apparatus which allowed the simulation of quantum phenomena (like the double slit experiment) from relativistic inputs.
 
-An important final remark is that I don't here claim that this is a pure "derivation" of QM from relativity: as the end goal of the equivalence was already known, four critical quantum world friendly conditions (specifically: compactifying the contact mass-shell Reeb fiber at Gromov capacity $c_G = 2\pi\hbar$, cross-slice Rao–Fisher localization at scale $\ell_C = \hbar/(mc)$, smooth $\Theta = 2\pi$ Euclidean cone completion with degree-one $S^1_{T_0}$ winding at nodal zeros, and DeWitt's curved-spacetime half-density ordering) enter the chain as explicit geometric inputs, from which the linear quantum equations are then proven. However, this does not negate how this equivalence demonstrates how the complex number QM identity is a mathematical necessity when we start from a pure real-number relativistic starting point! Also, while we provide a 150k LOC Lean formalization that compiles cleanly, I am of course fully aware that this only proves the internal mathematical machinery of this work, not any natural world physical implications, on which we take zero stances.
+An important final remark is that I don't here claim that this is a pure "derivation" of QM from relativity: as the end goal of the equivalence was already known, four critical quantum world friendly conditions (specifically: compactifying the contact mass-shell Reeb fiber at Gromov capacity $`c_G = 2\pi\hbar`$, cross-slice Rao–Fisher localization at scale $`\ell_C = \hbar/(mc)`$, smooth $`\Theta = 2\pi`$ Euclidean cone completion with degree-one $`S^1_{T_0}`$ winding at nodal zeros, and DeWitt's curved-spacetime half-density ordering) enter the chain as explicit geometric inputs, from which the linear quantum equations are then proven. However, this does not negate how this equivalence demonstrates how the complex number QM identity is a mathematical necessity when we start from a pure real-number relativistic starting point! Also, while we provide a 150k LOC Lean formalization that compiles cleanly, I am of course fully aware that this only proves the internal mathematical machinery of this work, not any natural world physical implications, on which we take zero stances.
 
 ## Overview of the Main Contributions
 
